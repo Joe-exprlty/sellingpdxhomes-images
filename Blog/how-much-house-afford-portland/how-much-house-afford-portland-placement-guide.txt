@@ -1,0 +1,68 @@
+LOFTY PLACEMENT GUIDE
+Post: How Much House Can I Afford in Portland?
+Slug: how-much-house-afford-portland
+File: how-much-house-afford-portland.html
+Date: May 2026
+
+=== CONTENT TAB ===
+
+Title field:
+  How Much House Can I Afford in Portland? 2026 Guide
+
+Blog Post Content field:
+  Click <> (Source Code). Paste entire contents of
+  how-much-house-afford-portland.html as one block.
+
+=== SETTINGS TAB ===
+
+Author: Joe Saling
+URL Slug: how-much-house-afford-portland
+Categories:
+  1. Buying a Home  (primary)
+  2. Home Buying Process
+  3. Mortgage Information
+Featured Image: hero-how-much-house-afford-portland.webp
+  Do NOT check "Add featured image to blog detail page"
+
+=== SEO TAB ===
+
+Meta Title (58 chars):
+  How Much House Can I Afford in Portland? 2026 Guide
+
+Meta Keywords:
+  how much house can I afford Portland, Portland home affordability, income needed to buy a house in Portland, Portland mortgage payment calculator, debt-to-income ratio Portland home buying, how much down payment Portland Oregon
+
+Meta Description (152 chars):
+  Portland buyers need $108K–$138K income to afford the $516K median home. See payment estimates at five price points for conventional and FHA buyers.
+
+=== POST-PUBLISH CHECKLIST ===
+
+[ ] Verify <article id="post-how-much-house-afford-portland"> preserved in source view
+[ ] Verify affordability selector: click each of 5 price buttons, panel swaps
+[ ] Verify $450K panel loads by default
+[ ] Verify hero loads
+[ ] Verify listing widget (79448) renders
+[ ] Verify mobile layout on phone
+[ ] Add /blog/how-much-house-afford-portland to Link Library
+[ ] Update closing-costs-oregon post: find the placeholder comment
+    <!-- INTERNAL LINK: /blog/how-much-house-afford-portland -->
+    Replace the paragraph below it with:
+    <p>If you haven't nailed down your target price range yet,
+    <a href="/blog/how-much-house-afford-portland">here's how to
+    figure out how much house you can afford in Portland</a> before
+    diving into closing cost specifics.</p>
+[ ] Update first-time-home-buyer-guide-portland to link to this post
+[ ] Commit updated Link_Library.xlsx to GitHub
+
+=== IMAGE STATUS ===
+All images processed and ready for GitHub Pages upload.
+
+Upload to:
+  https://github.com/Joe-exprlty/sellingpdxhomes-images
+  Folder: Blog/how-much-house-afford-portland/  (capital B)
+
+Files:
+  hero-how-much-house-afford-portland.webp   1200x480  59KB
+  edit1-portland-neighborhood-street.webp    800x400   91KB
+  edit2-mortgage-pre-approval-portland.webp  800x400   40KB
+  edit3-portland-for-sale-sign.webp          800x400   78KB
