@@ -1,0 +1,127 @@
+LOFTY PLACEMENT GUIDE
+Spoke 7 — Final Walkthrough and Closing Day in Portland: What to Expect
+Slug: /blog/closing-day-home-buying-portland-oregon
+File: closing-day-home-buying-portland-oregon.html
+Date: May 2026
+========================================================
+
+STEP 1 — CONTENT TAB
+---------------------
+Title field:
+  Final Walkthrough and Closing Day in Portland: What to Expect
+
+Blog Post Content field:
+  Click the source code button (<>) in the editor toolbar.
+  Paste the entire contents of closing-day-home-buying-portland-oregon.html.
+  Click OK / Save Source.
+
+  The paste includes in this order:
+    1. Google Fonts link (first line)
+    2. Six hidden radio inputs (cd0 through cd5) — MUST appear before <article>
+    3. <article id="post-closing-day-home-buying-portland-oregon"> ... </article>
+    4. <style> block (all CSS)
+    5. <script type="application/ld+json"> (schema — Article, BreadcrumbList, FAQPage)
+
+  Do NOT add the H1 manually. Lofty generates the H1 from the Title field above.
+  Do NOT check "Add featured image to blog detail page."
+
+STEP 2 — SETTINGS TAB
+----------------------
+Author:       Joe Saling
+URL Slug:     closing-day-home-buying-portland-oregon
+Categories:   Home Buying Process (primary), Buying a Home
+Featured Image:
+  Upload: hero-closing-day-pdx.webp (1200x480, under 200KB)
+  Do NOT check "Add featured image to blog detail page"
+  (hero image is already embedded in the HTML)
+
+STEP 3 — SEO TAB
+-----------------
+Clear any auto-populated variables before entering these.
+
+Meta Title (57 characters):
+  Closing Day in Portland: Final Walkthrough Guide
+
+Meta Description (151 characters):
+  What to expect on closing day in Portland. Final walkthrough checklist, Oregon escrow process, signing vs. recording, wire fraud warning, and keys.
+
+Meta Keywords:
+  closing day home buying Portland, final walkthrough checklist Portland, Oregon closing process home buyer, when do you get keys after closing Oregon, wire fraud real estate closing, closing day checklist Portland Oregon
+
+========================================================
+POST-PUBLISH VERIFICATION CHECKLIST
+========================================================
+
+1. VIEW SOURCE in browser after publishing.
+   Confirm <article id="post-closing-day-home-buying-portland-oregon"> is present.
+   If Lofty sanitizer rewrote it to <div>, document it and note for next build.
+
+2. Test the 6-panel timeline selector on desktop.
+   Click each stage button (Final Walkthrough / Morning of Closing / At the Table /
+   After Signing / Recording and Keys / Day After).
+   Each panel should appear; others should hide.
+   Default state on page load: Final Walkthrough panel visible.
+
+3. Test the selector on mobile (Chrome DevTools responsive mode, 375px width).
+   Buttons should wrap to two rows at 480px.
+   Panels should display correctly when buttons are tapped.
+
+4. Run the DevTools diagnostic if selector does not work:
+   CSS.supports('selector(:has(#cd0:checked))')
+   -- must return true
+   document.querySelector('#cd0').checked
+   -- must return true after clicking Final Walkthrough button
+   window.getComputedStyle(document.querySelector('#cdp0')).display
+   -- must return "block" after clicking Final Walkthrough button
+
+5. Confirm wire fraud Important callout box renders with orange left border.
+
+6. Confirm FAQ pre-expanded question (keys after closing) is visible
+   without clicking, and remaining 7 questions are collapsed.
+
+7. Confirm listing widget loads (widget ID 79448).
+
+8. Update Link Library row 502 status from Planned to Published.
+
+========================================================
+INTERNAL LINK DEPENDENCY NOTE
+========================================================
+
+This post contains a cross-link to Spoke 3 (touring guide):
+  /blog/what-to-look-for-touring-homes-portland
+  Anchor: "what to look for when touring a home"
+  Placement: Final Walkthrough section, paragraph 3
+
+Spoke 3 is currently Planned status in the Link Library.
+The link is included in the HTML and will resolve automatically
+once Spoke 3 is published.
+
+PUBLISH ORDER REQUIRED:
+  1. Publish Spoke 1 (/blog/pre-approval-mortgage-guide-portland-oregon)
+     Update Link Library row 499 to Published
+  2. Publish Spoke 3 (/blog/what-to-look-for-touring-homes-portland)
+     Update Link Library row 501 to Published
+  3. Publish Spoke 7 (this post)
+     Update Link Library row 502 to Published
+  4. Run retrofit pass on Spokes 4, 5, 6 per the cross-link map
+
+========================================================
+IMAGES — UPLOAD TO GITHUB BEFORE PUBLISHING
+========================================================
+
+Repo: Joe-exprlty/sellingpdxhomes-images
+Path: Blog/closing-day-home-buying-portland-oregon/
+
+Files (process via Marblism CDN links when received):
+  hero-closing-day-pdx.webp          1200x480   under 200KB   loading=eager
+  editorial-walkthrough-closing-day-pdx.webp  800x400  under 150KB  loading=lazy
+  editorial-wire-transfer-closing-day-pdx.webp  800x400  under 150KB  loading=lazy
+  editorial-keys-closing-day-pdx.webp  800x400  under 150KB  loading=lazy
+
+GitHub Pages URLs (confirm live before publishing post):
+  https://joe-exprlty.github.io/sellingpdxhomes-images/Blog/closing-day-home-buying-portland-oregon/hero-closing-day-pdx.webp
+  https://joe-exprlty.github.io/sellingpdxhomes-images/Blog/closing-day-home-buying-portland-oregon/editorial-walkthrough-closing-day-pdx.webp
+  https://joe-exprlty.github.io/sellingpdxhomes-images/Blog/closing-day-home-buying-portland-oregon/editorial-wire-transfer-closing-day-pdx.webp
+  https://joe-exprlty.github.io/sellingpdxhomes-images/Blog/closing-day-home-buying-portland-oregon/editorial-keys-closing-day-pdx.webp
+
+Note: Blog folder is capitalized. GitHub URLs are case-sensitive.
