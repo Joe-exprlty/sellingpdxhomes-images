@@ -1,0 +1,92 @@
+LOFTY PLACEMENT GUIDE
+Post: What to Look For When Touring a Home: A Room-by-Room Guide for Portland Buyers
+Slug: /blog/what-to-look-for-touring-homes-portland
+File: what-to-look-for-touring-homes-portland.html
+Date: May 2026
+========================================
+
+BEFORE YOU START
+----------------
+⚠  Flag: Spoke 1 (pre-approval-mortgage-guide-portland-oregon) is built and awaiting
+   Lofty publish. Publish Spoke 1 FIRST, then update its Link Library row from Planned
+   to Published, then publish this post. The internal link to Spoke 1 in this post will
+   resolve correctly once Spoke 1 is live.
+
+IMAGE UPLOAD (do this before pasting HTML)
+------------------------------------------
+Upload all four images to GitHub at:
+  Joe-exprlty/sellingpdxhomes-images/Blog/what-to-look-for-touring-homes-portland/
+
+File names (exact):
+  hero-what-to-look-for-touring-homes-portland.webp
+  editorial-kitchen-what-to-look-for-touring-homes-portland.webp
+  editorial-crawlspace-what-to-look-for-touring-homes-portland.webp
+  editorial-electrical-what-to-look-for-touring-homes-portland.webp
+
+Verify each is live at:
+  https://joe-exprlty.github.io/sellingpdxhomes-images/Blog/what-to-look-for-touring-homes-portland/[filename].webp
+
+Do not paste the HTML until all four images are confirmed live.
+
+========================================
+LOFTY CMS: cms.lofty.com/cmsnew/blog
+========================================
+
+CONTENT TAB
+-----------
+Title field:
+  What to Look For When Touring a Home: A Room-by-Room Guide for Portland Buyers
+
+Blog Post Content field:
+  1. Click the <> (source code) button
+  2. Clear any existing content
+  3. Paste the entire contents of what-to-look-for-touring-homes-portland.html
+  4. Click OK / Save
+  5. Do NOT check "Add featured image to blog detail page"
+
+SETTINGS TAB
+------------
+Author: Joe Saling
+
+URL Slug: what-to-look-for-touring-homes-portland
+
+Categories (select all three):
+  - Buying a Home          (primary)
+  - Home Buying Process    (secondary)
+  - Real Estate News       (tertiary)
+
+Featured Image:
+  Upload: hero-what-to-look-for-touring-homes-portland.webp
+  Do NOT check "Add featured image to blog detail page"
+  (hero is already in the post HTML — checking this box would duplicate it)
+
+SEO TAB
+-------
+⚠  Clear auto-variables from Meta Title and Meta Description fields before typing.
+
+Meta Title (54 characters — confirmed):
+  What to Look For When Touring a Home | Portland Buyers
+
+Meta Description (155 characters — confirmed):
+  Portland buyer's room-by-room home tour guide. What to check, what to ask, and PNW-specific concerns most guides miss — oil tanks, roof moss, crawl spaces.
+
+Meta Keywords:
+  what to look for when touring a home, home tour checklist Portland, what to inspect during a showing, red flags when buying a home, home tour tips for buyers, Portland home buying process
+
+========================================
+POST-PUBLISH CHECKLIST
+========================================
+
+1. View the published post in browser — confirm images load
+2. Check source view in Lofty — confirm <article> tag survived the sanitizer
+   (if Lofty rewrote it to <div>, document and leave as-is)
+3. Test the room-by-room selector on desktop: click each of the 6 tabs
+4. Test the selector on mobile: confirm buttons stack and panels change
+5. Confirm all internal links resolve:
+   - /blog/Portland-Home-Inspection-Guide-What-to-Expect-and-What-to-Negotiate
+   - /home-buying-process
+   - /blog/5-Ways-to-Write-a-Winning-Offer
+   - /blog/pre-approval-mortgage-guide-portland-oregon (only after Spoke 1 is live)
+6. Update Link Library: change row 501 Status from Planned to Published
+7. Update the hub page at /home-buying-process to confirm the Step 7 deep dive link
+   points to /blog/what-to-look-for-touring-homes-portland
