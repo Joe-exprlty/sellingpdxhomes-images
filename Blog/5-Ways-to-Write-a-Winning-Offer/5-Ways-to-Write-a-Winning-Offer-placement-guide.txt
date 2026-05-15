@@ -1,0 +1,97 @@
+LOFTY PLACEMENT GUIDE — SPOKE 4: HOW TO WRITE A WINNING OFFER IN PORTLAND
+File: 5-Ways-to-Write-a-Winning-Offer.html
+v3.5 | May 2026
+
+=============================================================
+CONTENT TAB
+=============================================================
+
+Title field (auto-generates H1):
+  How to Write a Winning Offer in Portland: What Actually Works in a Competitive Market
+
+Blog Post Content field:
+  Click the source code button (<>) and paste the ENTIRE contents of
+  5-Ways-to-Write-a-Winning-Offer.html in one block.
+  The block includes (in order):
+    1. Google Fonts <link> tag
+    2. Six radio <input> elements (of0–of5)
+    3. <article id="post-5-Ways-to-Write-a-Winning-Offer"> ... </article>
+    4. <style> block
+    5. <script type="application/ld+json"> schema block
+
+  Do NOT paste in visual mode. Source code mode only.
+  After saving, switch back to source view to verify the <article> tag
+  was preserved (Lofty's sanitizer can rewrite it to <div> — document
+  if that occurs).
+
+=============================================================
+SETTINGS TAB
+=============================================================
+
+Author:           Joe Saling
+URL Slug:         5-Ways-to-Write-a-Winning-Offer
+                  (keeping existing slug — no redirect needed)
+
+Categories (select in this order):
+  1. Home Buying Process   ← primary
+  2. Buying a Home
+
+Featured Image:
+  Upload: hero-winning-offer.webp
+  Do NOT check "Add featured image to blog detail page"
+  (hero image is already in the post HTML)
+
+=============================================================
+SEO TAB
+=============================================================
+
+IMPORTANT: Clear any auto-populated variables before typing.
+
+Meta Title (56 characters):
+  How to Write a Winning Offer in Portland: Offer Strategy
+
+Meta Keywords (comma-separated):
+  how to write a winning offer, making a competitive offer Portland,
+  escalation clause Oregon, earnest money Oregon,
+  waiving contingencies Oregon, offer strategy Portland
+
+Meta Description (148 characters):
+  Learn how to write a winning offer in Portland. Escalation clauses,
+  earnest money, contingencies, and offer strategy by scenario from
+  a local agent.
+
+=============================================================
+PENDING LINKS — ADD WHEN LIVE
+=============================================================
+
+Two cross-links in the post body reference pages that are currently
+Planned (not published). When they go live, update the post HTML:
+
+1. Buyer Representation Agreement Oregon
+   URL: /blog/buyer-representation-agreement-oregon
+   Location in post: Mid-post route-out box — the text currently
+   reads "Ask your agent to walk you through it before your first
+   tour." Add a hyperlink on "buyer representation agreement" once live.
+
+2. Closing Day Walkthrough
+   URL: /blog/closing-day-home-buying-portland-oregon
+   Location in post: Final paragraph of "What Happens After You
+   Submit" section — link from "each step from offer through closing"
+   once live.
+
+=============================================================
+POST-PUBLISH CHECK
+=============================================================
+
+1. Confirm source view shows <article id="post-5-Ways-to-Write-a-Winning-Offer">
+   (not <div>) after save.
+2. Click each of the 6 scenario buttons and confirm the correct panel
+   appears. If panels don't switch, run the DevTools diagnostic from
+   the standards file Section 4.
+3. Confirm FAQ accordion: first FAQ visible (no <details> wrapper),
+   remaining 6 collapsed.
+4. Confirm hero image loads eager, editorial images load lazy.
+5. Confirm eXp Realty sign image (editorial-1) shows correct navy/white
+   branding with 555-555-5555 placeholder.
+6. Mobile: resize browser to 480px and confirm scenario buttons wrap,
+   panel grid collapses to single column, CTA buttons stack.
