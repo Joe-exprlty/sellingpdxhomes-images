@@ -1,0 +1,133 @@
+LOFTY PLACEMENT GUIDE
+Post: Mortgage Pre-Approval in Oregon: A Portland Buyer's Guide
+Slug: /blog/pre-approval-mortgage-guide-portland-oregon
+Date: May 2026
+
+=====================================================
+CONTENT TAB
+=====================================================
+
+TITLE FIELD (Lofty auto-generates H1 — do NOT include in HTML):
+Mortgage Pre-Approval in Oregon: A Portland Buyer's Guide
+
+BLOG POST CONTENT FIELD:
+1. Click the <> source code button in the editor toolbar.
+2. Paste the ENTIRE contents of pre-approval-mortgage-guide-portland-oregon.html into the source view.
+   Sequence inside the file:
+   - Google Fonts <link> (first line)
+   - 4 radio <input> tags (between Fonts and <article>)
+   - <article id="post-pre-approval-mortgage-guide-portland-oregon"> ... </article>
+   - <style> block (after closing </article>)
+   - <script type="application/ld+json"> schema block (after closing </style>)
+3. Click out of source view to confirm rendering.
+4. After saving, view the published page and verify:
+   - The 4 hidden radio inputs do NOT show as visible content
+   - The 4 loan-type buttons (FHA / VA / Conventional / Jumbo) render
+   - Clicking each button swaps the visible panel
+   - Conventional shows as the default selected panel
+   - The <article> tag survived Lofty's sanitizer (view source after publish)
+
+=====================================================
+SETTINGS TAB
+=====================================================
+
+AUTHOR: Joe Saling
+
+URL SLUG: pre-approval-mortgage-guide-portland-oregon
+(Full URL becomes: https://www.sellingpdxhomes.com/blog/pre-approval-mortgage-guide-portland-oregon)
+
+CATEGORIES (3, in this order):
+1. Mortgage Information (primary)
+2. Buying a Home
+3. Home Buying Process
+
+FEATURED IMAGE:
+Upload: hero-pre-approval-mortgage-guide-portland-oregon.webp
+IMPORTANT: Do NOT check the "Add featured image to blog detail page" box.
+The hero is already embedded in the post HTML; checking that box doubles it.
+
+PUBLISH DATE: 2026-05-15 (or current publish date)
+
+=====================================================
+SEO TAB
+=====================================================
+
+META TITLE:
+Clear the auto-variables and type:
+Mortgage Pre-Approval in Oregon: A Portland Buyer's Guide
+(58 characters)
+
+META KEYWORDS:
+mortgage pre-approval Oregon, mortgage pre-approval Portland, Oregon loan types FHA VA conventional, Oregon Bond Residential Loan, Portland mortgage lender, pre-qualification vs pre-approval
+
+META DESCRIPTION:
+Clear the auto-variables and type:
+Getting pre-approved for a mortgage in Oregon takes 1 to 3 days. Here's what Portland buyers need to know about loan types, credit, and choosing a lender.
+(152 characters)
+
+=====================================================
+IMAGE UPLOAD CHECKLIST (GitHub)
+=====================================================
+
+Upload these files to the GitHub repo at:
+Joe-exprlty/sellingpdxhomes-images
+Folder path: Blog/pre-approval-mortgage-guide-portland-oregon/
+
+Files (after Claude processes Marblism downloads):
+1. hero-pre-approval-mortgage-guide-portland-oregon.webp  (1200x480, under 200KB)
+2. credit-review-pre-approval-portland.webp               (800x400, under 150KB)
+3. loan-estimate-document-portland.webp                   (800x400, under 150KB)
+4. portland-home-buyer-walking-pre-approval.webp          (800x400, under 150KB)
+
+NOTE: The "Blog" folder name is capitalized. GitHub URLs are case-sensitive.
+NOTE: Marblism CDN URLs must NOT appear in the published HTML. The HTML in this build
+already uses the GitHub Pages URLs: https://joe-exprlty.github.io/sellingpdxhomes-images/Blog/pre-approval-mortgage-guide-portland-oregon/[filename].webp
+
+=====================================================
+POST-PUBLISH VERIFICATION
+=====================================================
+
+1. Open the published post in a clean browser (incognito).
+2. Confirm hero image loads at top.
+3. Confirm Quick Answer box renders with honey background and gold pill badge.
+4. Confirm TOC renders with all 10 entries clickable.
+5. Click each TOC entry — confirm it scrolls to the correct H2.
+6. Click each loan type button (FHA, VA, Conventional, Jumbo) and confirm panel swap.
+7. Resize browser to mobile width and confirm:
+   - Loan type buttons remain tappable
+   - Panel grid collapses to single column
+   - CTA buttons stack vertically
+   - FAQ summaries have touch-friendly 48px height
+8. Open browser DevTools, run in console:
+   CSS.supports('selector(:has(#lt0:checked))')
+   Should return: true
+9. Test the interactive selector in console:
+   document.querySelector('#lt0').checked = false; document.querySelector('#lt1').click();
+   The visible panel should change.
+10. View page source (Ctrl+U) and confirm <article id="post-..."> survived Lofty's sanitizer.
+    If Lofty rewrote it to <div>, document this for future builds (selector still works because
+    the CSS scopes by ID, not tag name).
+11. Verify the listing widget loads and resizes properly.
+12. Confirm all internal links resolve to live URLs.
+13. Confirm external links open in new tabs (target="_blank").
+
+=====================================================
+KNOWN POTENTIAL ISSUES
+=====================================================
+
+ISSUE: If radio inputs render visibly above the article wrapper.
+FIX: The CSS rule .lt-r { position: fixed; ... } should hide them. If they appear,
+     verify the <style> block was preserved by Lofty's sanitizer. If Lofty strips
+     position: fixed, fall back to position: absolute with opacity: 0.
+
+ISSUE: If clicking a loan type button scrolls the page upward.
+FIX: This is the bug position: fixed prevents. Verify the inputs are using
+     position: fixed in computed styles via DevTools. Also verify the radio
+     inputs are placed BEFORE the <article> tag in the rendered source.
+
+ISSUE: If Lofty wraps the radio inputs in a <p> tag.
+FIX: Expected. The :has() selectors work regardless of wrapper. Do not change.
+
+ISSUE: If the chimeWidget iframe does not resize.
+FIX: The Lofty resize script handles this. If it fails, the 800px min-height
+     on the container ensures listings still display.
