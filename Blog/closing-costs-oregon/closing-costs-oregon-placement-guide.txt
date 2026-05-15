@@ -1,0 +1,78 @@
+LOFTY PLACEMENT GUIDE
+Post: Oregon Closing Costs for Home Buyers
+File: closing-costs-oregon.html
+Date: May 2026
+
+=======================================================
+CONTENT TAB
+=======================================================
+
+Title field:
+Oregon Closing Costs for Home Buyers: A Complete Guide
+
+Blog Post Content field:
+1. Click the <> (source code) button
+2. Paste the ENTIRE contents of closing-costs-oregon.html
+3. Click OK
+
+=======================================================
+SETTINGS TAB
+=======================================================
+
+Author: Joe Saling
+
+URL Slug: closing-costs-oregon
+(This is an existing post — confirm slug matches exactly, do not change it)
+
+Categories (select all three):
+- Primary: Buying a Home
+- Secondary: Home Buying Process
+- Tertiary: Mortgage Information
+
+Featured Image:
+Upload: hero-closing-costs-oregon.webp
+IMPORTANT: Do NOT check "Add featured image to blog detail page"
+(The hero image is already embedded in the post HTML)
+
+=======================================================
+SEO TAB
+=======================================================
+
+STEP 1: Clear the auto-populated Meta Title field completely
+STEP 2: Type this exactly (57 characters):
+Oregon Closing Costs for Buyers: Complete Guide 2026
+
+STEP 3: Clear the auto-populated Meta Description field completely
+STEP 4: Type this exactly (153 characters):
+Oregon buyers pay 2%–5% in closing costs. Learn what lender fees, title, prepaids, and the Washington County transfer tax actually cost — with line-item estimates by price.
+
+STEP 5: Meta Keywords (comma-separated):
+closing costs Oregon, closing costs Portland Oregon, Oregon down payment assistance, Washington County transfer tax, buyer agent compensation closing disclosure, how much are closing costs Oregon
+
+=======================================================
+POST-PUBLISH VERIFICATION
+=======================================================
+
+1. View the published post in browser
+2. Open browser source view (Ctrl+U) and confirm:
+   - <article id="post-closing-costs-oregon"> is preserved (not rewritten to <div>)
+   - Radio inputs appear before the <article> tag
+   - Style block appears after closing </article>
+   - Schema JSON-LD appears after closing </style>
+3. Click each of the 5 price selector buttons ($350K through $750K) and confirm panels switch
+4. Expand at least 2 FAQ accordions and confirm content is visible
+5. Confirm all 4 images load (hero + 3 editorials)
+6. Test on mobile — confirm tables scroll horizontally, buttons stack vertically
+
+=======================================================
+CROSS-LINK VERIFICATION (all 5 spokes now published)
+=======================================================
+
+Confirm these links resolve correctly after publish:
+- /home-buying-process
+- /blog/Portland-Home-Inspection-Guide-What-to-Expect-and-What-to-Negotiate
+- /blog/5-Ways-to-Write-a-Winning-Offer
+- /blog/buyer-representation-agreement-oregon
+- /blog/closing-day-home-buying-portland-oregon
+- /blog/pre-approval-mortgage-guide-portland-oregon
+
