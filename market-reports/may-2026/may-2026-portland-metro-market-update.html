@@ -1,0 +1,759 @@
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Nunito+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+/* Mobile-friendly scrollable table */
+.sh-table-wrap{position:relative;margin:4px 0 8px}
+.sh-table-wrap .sh-table-inner{overflow-x:auto;-webkit-overflow-scrolling:touch;scrollbar-width:none;border-radius:12px;border:1px solid #D9D0C3}
+.sh-table-wrap .sh-table-inner::-webkit-scrollbar{display:none}
+.sh-table-wrap table{width:100%;min-width:600px;border-collapse:collapse;font-size:0.88rem}
+.sh-table-wrap thead{background:#1E1B18;color:#fff;position:sticky;top:0;z-index:1}
+.sh-table-wrap th{font-family:'Nunito Sans',sans-serif;font-weight:700;font-size:0.8rem;text-transform:uppercase;letter-spacing:0.04em;padding:12px 16px;text-align:left;white-space:nowrap}
+.sh-table-wrap td{padding:11px 16px;border-bottom:1px solid #D9D0C3;white-space:nowrap}
+.sh-table-wrap tbody tr:nth-child(odd){background:#ffffff}
+.sh-table-wrap tbody tr:nth-child(even){background:#ECE4D0}
+.sh-table-wrap .cell-hl{font-weight:700;color:#1E1B18}
+.sh-table-wrap::after{content:'';position:absolute;top:0;right:0;bottom:0;width:40px;background:linear-gradient(to right,transparent,rgba(255,255,255,0.9));border-radius:0 12px 12px 0;pointer-events:none;z-index:2}
+.sh-swipe-cue{display:flex;align-items:center;justify-content:center;gap:6px;padding:10px 0 4px;font-family:'Nunito Sans',sans-serif;font-size:0.82rem;color:#767676}
+.sh-swipe-cue svg{width:16px;height:16px;animation:sh-nudge 1.8s ease-in-out infinite}
+@keyframes sh-nudge{0%,100%{transform:translateX(0)}50%{transform:translateX(6px)}}
+@media(min-width:681px){.sh-table-wrap::after{display:none}.sh-swipe-cue{display:none}}
+
+/* Dramatic expand bar (pattern interrupter) */
+.sh-expand-bar summary{cursor:pointer;font-family:'Nunito Sans',sans-serif;font-weight:600;font-size:0.95rem;color:#1E1B18;list-style:none;display:flex;align-items:center;gap:12px;padding:16px 22px;min-height:52px;background:#ECE4D0;border-left:4px solid #F0C040;border-radius:0 8px 8px 0;margin:16px 0;transition:all 0.3s ease}
+.sh-expand-bar summary::-webkit-details-marker{display:none}
+.sh-expand-bar summary:hover{background:#1E1B18;color:#ffffff;border-left-width:6px;box-shadow:0 4px 16px rgba(0,0,0,0.15);transform:translateY(-2px)}
+.sh-expand-bar summary .expand-icon{display:inline-flex;align-items:center;justify-content:center;width:28px;height:28px;background:#F0C040;color:#1E1B18;border-radius:50%;font-size:1.1rem;font-weight:700;flex-shrink:0;transition:all 0.3s ease}
+.sh-expand-bar summary:hover .expand-icon{transform:scale(1.15);box-shadow:0 0 8px rgba(240,192,64,0.4)}
+.sh-expand-bar .expand-teaser{display:block;font-size:0.85rem;color:#767676;font-weight:400;font-style:italic;margin-top:3px;transition:color 0.3s ease}
+.sh-expand-bar summary:hover .expand-teaser{color:rgba(255,255,255,0.6)}
+.sh-expand-bar .expand-label{transition:color 0.3s ease}
+.sh-expand-bar summary:hover .expand-label{color:#F0C040}
+
+/* FAQ accordion hover */
+.sh-faq details{border-bottom:1px solid #C4CAD4}
+.sh-faq summary{cursor:pointer;padding:16px 4px;font-family:'Nunito Sans',sans-serif;font-weight:600;font-size:1.18rem;color:#1E1B18;list-style:none;display:flex;justify-content:space-between;align-items:center;transition:color 0.2s ease}
+.sh-faq summary::-webkit-details-marker{display:none}
+.sh-faq summary:hover{color:#F0C040}
+.sh-faq summary .faq-toggle{font-size:1.3rem;color:#F0C040;font-weight:400;flex-shrink:0;margin-left:12px}
+</style>
+
+<div id="post-portland-metro-market-update-may-2026" style="font-family:'Nunito Sans',sans-serif;font-size:1.18rem;line-height:1.6;color:#444444;padding:0 0 60px;">
+
+<img src="https://joe-exprlty.github.io/sellingpdxhomes-images/market-reports/may-2026/hero.webp" alt="Spring residential street, Northeast Portland, Oregon" width="1200" height="630" loading="eager" style="width:100%;border-radius:10px;display:block;margin:0 0 4px;object-fit:cover;max-height:420px;">
+<p style="font-size:0.88rem;color:#767676;text-align:left;margin:4px 0 18px;font-style:italic;">A Northeast Portland street on a clear spring morning. Buyer traffic across the metro reached its highest April level since 2018.</p>
+
+<div style="background:#ffffff;border:1px solid #D9D0C3;border-left:4px solid #F0C040;border-radius:8px;padding:20px 24px;margin:24px 0 30px;box-shadow:0 2px 8px rgba(0,0,0,0.05);">
+  <span style="display:block;font-family:'Nunito Sans',sans-serif;font-weight:700;font-size:0.8rem;text-transform:uppercase;letter-spacing:0.08em;color:#1E1B18;margin-bottom:8px;">Quick Answer</span>
+  <p style="margin:0;font-size:1.18rem;color:#444444;line-height:1.6;">In April 2026, the Portland Metro median sale price held steady at $550,000, unchanged from a year ago and up 1.1% from March. Closed sales rose 7.1% year over year and buyer showings jumped about 21%, signs of a market that is steadily regaining its footing as mortgage rates ease.</p>
+</div>
+
+<p style="font-size:1.18rem;color:#444444;margin:0 0 18px;line-height:1.6;">April gave us one of the more encouraging readings in a while. The median sale price came in at $550,000, exactly where it sat in April 2025 and up 1.1% from March. Closed sales reached 2,013, up 7.1% over last April, and homes sold in 63 days, sixteen days faster than the month before. Inventory held at 3.1 months, flat with a year ago, keeping most neighborhoods leaning toward sellers.</p>
+
+<p style="font-size:1.18rem;color:#444444;margin:0 0 18px;line-height:1.6;">Here is the honest picture. Prices are softening gently nationwide and Portland is part of that, so this is not a market racing upward. But local demand is clearly building, financing is more affordable than it was a year ago, and well-prepared homes are moving. For anyone who needs to buy or sell this year, those are conditions you can work with.</p>
+
+<div style="background:#1E1B18;border-radius:12px;padding:28px;margin:30px 0;display:flex;gap:20px;flex-wrap:wrap;">
+  <div style="flex:1;min-width:140px;text-align:center;">
+    <span style="font-family:'Playfair Display',serif;font-size:2rem;font-weight:700;color:#F0C040;display:block;line-height:1.1;">$550K</span>
+    <span style="font-size:0.82rem;color:rgba(255,255,255,0.75);margin-top:4px;display:block;font-weight:500;">Median Sale Price (YoY 0.0%)</span>
+  </div>
+  <div style="flex:1;min-width:140px;text-align:center;">
+    <span style="font-family:'Playfair Display',serif;font-size:2rem;font-weight:700;color:#F0C040;display:block;line-height:1.1;">3.1</span>
+    <span style="font-size:0.82rem;color:rgba(255,255,255,0.75);margin-top:4px;display:block;font-weight:500;">Inventory in Months (flat YoY)</span>
+  </div>
+  <div style="flex:1;min-width:140px;text-align:center;">
+    <span style="font-family:'Playfair Display',serif;font-size:2rem;font-weight:700;color:#F0C040;display:block;line-height:1.1;">2,013</span>
+    <span style="font-size:0.82rem;color:rgba(255,255,255,0.75);margin-top:4px;display:block;font-weight:500;">Closed Sales (YoY +7.1%)</span>
+  </div>
+  <div style="flex:1;min-width:140px;text-align:center;">
+    <span style="font-family:'Playfair Display',serif;font-size:2rem;font-weight:700;color:#F0C040;display:block;line-height:1.1;">63 days</span>
+    <span style="font-size:0.82rem;color:rgba(255,255,255,0.75);margin-top:4px;display:block;font-weight:500;">Total Market Time (16 days faster MoM)</span>
+  </div>
+</div>
+
+<div id="key-takeaways" style="background:#ECE4D0;border:1px solid #D4CCB8;border-top:4px solid #F0C040;border-radius:10px;padding:24px 28px;margin:0 0 40px;box-shadow:0 2px 8px rgba(0,0,0,0.05);">
+  <span style="font-family:'Nunito Sans',sans-serif;font-size:0.78rem;font-weight:700;text-transform:uppercase;letter-spacing:0.1em;color:#1E1B18;display:block;margin:0 0 14px;">Key Takeaways and Quick Navigation</span>
+  <ol style="margin:0;padding-left:20px;">
+    <li style="margin-bottom:8px;font-size:1.18rem;color:#444444;">
+      <a href="#market-overview" style="color:#1E1B18;text-decoration:none;border-bottom:2px solid #F0C040;font-size:1.18rem;font-weight:600;">The median price held flat year over year at $550,000 and rose 1.1% from March, a sign of stabilizing prices</a>
+    </li>
+    <li style="margin-bottom:8px;font-size:1.18rem;color:#444444;">
+      <a href="#buyer-activity" style="color:#1E1B18;text-decoration:none;border-bottom:2px solid #F0C040;font-size:1.18rem;font-weight:600;">Buyer showings jumped about 21% over last April to roughly 84,000, the busiest April since 2018</a>
+    </li>
+    <li style="margin-bottom:8px;font-size:1.18rem;color:#444444;">
+      <a href="#affordability" style="color:#1E1B18;text-decoration:none;border-bottom:2px solid #F0C040;font-size:1.18rem;font-weight:600;">The monthly payment on a median home is about $160 lower than a year ago as rates eased to 6.33%</a>
+    </li>
+    <li style="margin-bottom:8px;font-size:1.18rem;color:#444444;">
+      <a href="#buyers" style="color:#1E1B18;text-decoration:none;border-bottom:2px solid #F0C040;font-size:1.18rem;font-weight:600;">Buyers have more choice and more time than during the frenzy years, with inventory holding near 3.1 months</a>
+    </li>
+    <li style="margin-bottom:8px;font-size:1.18rem;color:#444444;">
+      <a href="#sellers" style="color:#1E1B18;text-decoration:none;border-bottom:2px solid #F0C040;font-size:1.18rem;font-weight:600;">Well-priced, well-presented homes are still selling quickly, with market time down to 63 days</a>
+    </li>
+    <li style="margin-bottom:8px;font-size:1.18rem;color:#444444;">
+      <a href="#submarkets" style="color:#1E1B18;text-decoration:none;border-bottom:2px solid #F0C040;font-size:1.18rem;font-weight:600;">Western suburbs led sales growth, with Beaverton, Aloha, and NW Washington County all up more than 24%</a>
+    </li>
+    <li style="margin-bottom:8px;font-size:1.18rem;color:#444444;">
+      <a href="#looking-ahead" style="color:#1E1B18;text-decoration:none;border-bottom:2px solid #F0C040;font-size:1.18rem;font-weight:600;">Mortgage rates, Oregon housing legislation, and construction costs are the main factors to watch ahead</a>
+    </li>
+  </ol>
+</div>
+
+<figure style="margin:20px 0 18px;">
+  <img src="https://joe-exprlty.github.io/sellingpdxhomes-images/market-reports/may-2026/market-context.webp" alt="Portland skyline and inner neighborhoods, Portland, Oregon" width="1200" height="630" loading="lazy" style="width:100%;border-radius:10px;display:block;object-fit:cover;max-height:280px;">
+  <figcaption style="font-size:0.88rem;color:#767676;font-style:italic;margin:4px 0 0;">Inner Portland neighborhoods with Mount Hood on the horizon. Metro prices have moved less than half a percent over the past full year.</figcaption>
+</figure>
+
+<h2 id="market-overview" style="font-family:'Playfair Display',serif;font-size:1.6rem;font-weight:700;color:#1E1B18;margin:48px 0 10px;border-bottom:2px solid #F0C040;padding-bottom:10px;">How We Got Here: A Market Finding Its Footing</h2>
+
+<p style="font-size:1.18rem;color:#444444;margin:0 0 18px;line-height:1.6;">The headline for April is stability. The metro median sale price was $550,000, identical to April 2025 and up 1.1% from March. Over a full rolling twelve months, the average sale price has moved just -0.4% and the median -0.2%. After several years of sharp swings, prices that barely budge over a year are a sign of a market settling into a steadier rhythm rather than one in decline.</p>
+
+<p style="font-size:1.18rem;color:#444444;margin:0 0 18px;line-height:1.6;">Underneath that steady price line, activity picked up. New listings rose 24% from March, closed sales were up 7.1% year over year, and pending sales rose 5.9%. Inventory of 3.1 months is still tighter than a balanced six-month market, which is why most neighborhoods continue to favor sellers even as the pace feels calmer than the boom years.</p>
+
+<details class="sh-expand-bar">
+  <summary>
+    <span class="expand-icon">+</span>
+    <span>
+      <span class="expand-label">Continue reading: The demand and price story in full</span>
+      <span class="expand-teaser">Pending sales outran closings while the gap between average and median price narrowed, both signs of healthy, broad-based demand rather than a top-heavy market.</span>
+    </span>
+  </summary>
+  <div style="padding:16px 0 0;">
+    <p style="font-size:1.18rem;color:#444444;margin:0 0 18px;line-height:1.6;">Demand is the clearest positive. Pending sales of 2,356 ran ahead of the 2,013 that closed, which is normal and points to strong May and June closings. Year to date, pending sales are up 5.6% and closed sales up 2.9%. The market is not just stable, it is busier than a year ago.</p>
+    <p style="font-size:1.18rem;color:#444444;margin:0 0 18px;line-height:1.6;">On price, the average was $615,100 and the median $550,000. The roughly $65,000 gap is typical and has not widened, so the market is not being propped up by high-end sales. The busiest part is squarely in the middle: homes from $400,000 to $600,000 made up 39% of April closings, and the $300,000 to $700,000 range accounted for 64%. This is a mainstream market, not a luxury-driven one.</p>
+    <p style="font-size:1.18rem;color:#444444;margin:0 0 18px;line-height:1.6;">Nationally, more than half of the largest U.S. metros posted year-over-year price declines in the latest S&P Cotality Case-Shiller reading. Portland's flat median fits that broad cooling, but our rising sales volume and faster market time suggest local demand is holding up better than the price line alone implies.</p>
+  </div>
+</details>
+
+<div style="background:#ffffff;border:1px solid #D9D0C3;border-left:4px solid #F0C040;border-radius:8px;padding:18px 22px;margin:24px 0;box-shadow:0 2px 8px rgba(0,0,0,0.05);">
+  <span style="display:block;font-family:'Playfair Display',serif;font-size:0.8rem;text-transform:uppercase;letter-spacing:0.06em;color:#1E1B18;margin-bottom:8px;">Source Convergence: Independent Data Agrees</span>
+  <p style="margin:0;font-size:1.18rem;color:#444444;line-height:1.6;">The independent home-value trackers point the same direction as the local MLS data. <a href="https://www.zillow.com/home-values/13373/portland-or/" target="_blank" rel="noopener noreferrer" style="color:#1E1B18;text-decoration:none;border-bottom:2px solid #F0C040;font-weight:600;">Zillow shows Portland values roughly flat over the past year</a>, and <a href="https://www.redfin.com/state/Oregon/housing-market" target="_blank" rel="noopener noreferrer" style="color:#1E1B18;text-decoration:none;border-bottom:2px solid #F0C040;font-weight:600;">Redfin reports Oregon sales volume up about 8% year over year</a> with prices essentially flat. Flat prices and rising volume, from three separate sources, is a consistent signal.</p>
+</div>
+
+<div style="text-align:right;padding:16px 0 0;">
+  <a href="#key-takeaways" style="display:inline-block;font-size:0.85rem;font-weight:600;color:#1E1B18;text-decoration:none;border-bottom:2px solid #F0C040;letter-spacing:0.04em;">&#9650; Back to Key Takeaways</a>
+</div>
+
+<div style="background:#1E1B18;border-radius:8px;padding:24px 28px;margin:24px 0;">
+  <span style="display:block;font-family:'Playfair Display',serif;font-size:0.8rem;text-transform:uppercase;letter-spacing:0.06em;color:#F0C040;margin-bottom:12px;">Data Point: April Trend Summary</span>
+  <ul style="list-style:none;padding-left:0;margin:0;">
+    <li style="padding-left:22px;position:relative;margin-bottom:10px;color:rgba(255,255,255,0.82);font-size:1.18rem;line-height:1.6;list-style:none;">
+      <span style="position:absolute;left:0;top:10px;width:7px;height:7px;background:#F0C040;border-radius:50%;display:inline-block;"></span>
+      Inventory: eased from 4.3 to 3.1 months January through April, now flat year over year
+    </li>
+    <li style="padding-left:22px;position:relative;margin-bottom:10px;color:rgba(255,255,255,0.82);font-size:1.18rem;line-height:1.6;list-style:none;">
+      <span style="position:absolute;left:0;top:10px;width:7px;height:7px;background:#F0C040;border-radius:50%;display:inline-block;"></span>
+      Pending Sales: up 5.9% year over year in April, up 5.6% year to date
+    </li>
+    <li style="padding-left:22px;position:relative;margin-bottom:10px;color:rgba(255,255,255,0.82);font-size:1.18rem;line-height:1.6;list-style:none;">
+      <span style="position:absolute;left:0;top:10px;width:7px;height:7px;background:#F0C040;border-radius:50%;display:inline-block;"></span>
+      Median Price: up 7.8% since the January low, flat versus April 2025
+    </li>
+    <li style="padding-left:22px;position:relative;margin-bottom:0;color:rgba(255,255,255,0.82);font-size:1.18rem;line-height:1.6;list-style:none;">
+      <span style="position:absolute;left:0;top:10px;width:7px;height:7px;background:#F0C040;border-radius:50%;display:inline-block;"></span>
+      Market Time: down from 89 to 63 days since January, homes selling faster
+    </li>
+  </ul>
+</div>
+
+<h2 id="buyer-activity" style="font-family:'Playfair Display',serif;font-size:1.6rem;font-weight:700;color:#1E1B18;margin:48px 0 10px;border-bottom:2px solid #F0C040;padding-bottom:10px;">Buyer Traffic Surged: The Showing Data Most Reports Never See</h2>
+
+<p style="font-size:1.18rem;color:#444444;margin:0 0 18px;line-height:1.6;">This is the number I find most encouraging, and it comes from data most reports never include. Lockbox showing activity reached about 83,995 in April, up roughly 21% from last year and the busiest April for buyer traffic since 2018. Buyers are out in force and getting serious about this spring.</p>
+
+<p style="font-size:1.18rem;color:#444444;margin:0 0 18px;line-height:1.6;">Here is the honest nuance, and it is actually good news for buyers. Showings rose about 21% while closed sales rose 7.1%. Buyers are engaged and active, but they are taking their time, comparing options, and making careful decisions rather than rushing into bidding wars. That is a healthier, less frantic market than we saw a few years ago, and it gives serious buyers room to negotiate.</p>
+
+<details class="sh-expand-bar">
+  <summary>
+    <span class="expand-icon">+</span>
+    <span>
+      <span class="expand-label">See the full showing data breakdown</span>
+      <span class="expand-teaser">Buyer traffic year to date is running 35% ahead of last year, and weekly activity kept climbing into May, pointing to a strong early-summer closing season.</span>
+    </span>
+  </summary>
+  <div style="padding:16px 0 0;">
+    <p style="font-size:1.18rem;color:#444444;margin:0 0 18px;line-height:1.6;">The momentum is not a one-month blip. Through the first four months of 2026, total showings ran about 35% ahead of the same period in 2025. April's weekly pace stayed strong and actually accelerated into the first weeks of May, which historically points to a busy May and June for accepted offers and closings.</p>
+    <p style="font-size:1.18rem;color:#444444;margin:0 0 18px;line-height:1.6;">For context, the long-run April average, setting aside the unusual 2020 spring, is closer to 72,000 showings. This April ran about 17% above that norm and ranks as the fourth-busiest April on record. When foot traffic climbs while closings rise more modestly, it usually signals demand building a pipeline rather than burning out. For sellers, a deep pool of motivated buyers is touring homes now. For buyers, you have company, but not the panic-buying of the past.</p>
+  </div>
+</details>
+
+<div style="text-align:right;padding:16px 0 0;">
+  <a href="#key-takeaways" style="display:inline-block;font-size:0.85rem;font-weight:600;color:#1E1B18;text-decoration:none;border-bottom:2px solid #F0C040;letter-spacing:0.04em;">&#9650; Back to Key Takeaways</a>
+</div>
+
+<div style="background:#ffffff;border:2px solid #F0C040;border-radius:14px;padding:28px 32px 32px;margin:48px 0 36px;text-align:center;box-shadow:0 2px 8px rgba(0,0,0,0.05);">
+  <h3 style="font-family:'Playfair Display',serif;font-size:1.55rem;font-weight:700;color:#1E1B18;margin:0 0 10px;text-align:center;">Want to See What Is Actually Out There?</h3>
+  <p style="color:#444444;font-size:1.18rem;text-align:center;margin:0 auto 24px;max-width:480px;display:block;line-height:1.6;">With more listings hitting the market this spring, now is a good time to explore your options. Browse current homes or reach out and I will help you make sense of what fits your goals. No pressure, no obligation.</p>
+  <div style="display:flex;gap:14px;justify-content:center;flex-wrap:wrap;">
+    <a href="https://www.sellingpdxhomes.com/listing" target="_blank" style="background:#F0C040;color:#1E1B18;font-family:'Nunito Sans',sans-serif;font-weight:700;font-size:1.18rem;padding:13px 26px;border-radius:4px;text-decoration:none;display:inline-block;border:none;letter-spacing:0.05em;">Browse Listings</a>
+    <a href="https://www.sellingpdxhomes.com/contact" target="_blank" style="background:transparent;color:#1E1B18;font-family:'Nunito Sans',sans-serif;font-weight:700;font-size:1.18rem;padding:13px 26px;border-radius:4px;text-decoration:none;border:2px solid #1E1B18;display:inline-block;letter-spacing:0.05em;">Talk to Joe</a>
+  </div>
+</div>
+
+<figure style="margin:20px 0 18px;">
+  <img src="https://joe-exprlty.github.io/sellingpdxhomes-images/market-reports/may-2026/buyer-scene.webp" alt="Buyers touring a single-level home, Portland, Oregon" width="1200" height="630" loading="lazy" style="width:100%;border-radius:10px;display:block;object-fit:cover;max-height:280px;">
+  <figcaption style="font-size:0.88rem;color:#767676;font-style:italic;margin:4px 0 0;">Buyers touring a single-level home in the Portland area. Lower rates trimmed the typical monthly payment compared with a year ago.</figcaption>
+</figure>
+
+<h2 id="affordability" style="font-family:'Playfair Display',serif;font-size:1.6rem;font-weight:700;color:#1E1B18;margin:48px 0 10px;border-bottom:2px solid #F0C040;padding-bottom:10px;">Where We Are Now: Affordability Is Quietly Improving</h2>
+
+<p style="font-size:1.18rem;color:#444444;margin:0 0 18px;line-height:1.6;">Here is a positive that gets lost in the headlines. At April's $550,000 median with 20% down, financing $440,000 at the month's 6.33% average rate, the principal and interest payment is roughly $2,732 a month. A year ago, a nearly identical home at 6.80% ran about $2,895. That is close to $160 less per month for the same priced home, simply because rates came down. Taxes, insurance, and maintenance are on top of that.</p>
+
+<p style="font-size:1.18rem;color:#444444;margin:0 0 18px;line-height:1.6;">Affordability is still stretched in absolute terms, no question. But the direction has turned in buyers' favor over the past year, and that improvement is the kind of thing that brings hesitant buyers back to the table.</p>
+
+<details class="sh-expand-bar">
+  <summary>
+    <span class="expand-icon">+</span>
+    <span>
+      <span class="expand-label">Read more: How affordability is trending</span>
+      <span class="expand-teaser">RMLS pegs the affordability index at 98%, meaning a median-income family can nearly afford the payment on a median-priced home, with income at $124,100.</span>
+    </span>
+  </summary>
+  <div style="padding:16px 0 0;">
+    <p style="font-size:1.18rem;color:#444444;margin:0 0 18px;line-height:1.6;">RMLS publishes a quarterly affordability index built on a formula from the National Association of Realtors. The latest reading sits at 98%, meaning a family earning the area median income can afford 98% of the payment on a median-priced home, assuming 20% down. The index uses the U.S. Department of Housing and Urban Development median family income of $124,100 for the Portland area. An index near 100 means the median-income household is right at the threshold of affording the median home, far better than the deeply unaffordable readings of 2022 and 2023.</p>
+    <p style="font-size:1.18rem;color:#444444;margin:0 0 18px;line-height:1.6;">Rates are driving the improvement, not falling prices. The 30-year fixed averaged 6.33% in April, down from roughly 6.80% a year earlier, per the <a href="https://www.freddiemac.com/pmms" target="_blank" rel="noopener noreferrer" style="color:#1E1B18;text-decoration:none;border-bottom:2px solid #F0C040;font-weight:600;">Freddie Mac Primary Mortgage Market Survey</a>. Freddie Mac noted purchase applications running more than 20% above a year ago, which mirrors the jump in local showings. Flat prices plus lower rates make the market gradually more reachable for buyers priced out a year or two ago.</p>
+  </div>
+</details>
+
+<div style="text-align:right;padding:16px 0 0;">
+  <a href="#key-takeaways" style="display:inline-block;font-size:0.85rem;font-weight:600;color:#1E1B18;text-decoration:none;border-bottom:2px solid #F0C040;letter-spacing:0.04em;">&#9650; Back to Key Takeaways</a>
+</div>
+
+<h2 id="buyers" style="font-family:'Playfair Display',serif;font-size:1.6rem;font-weight:700;color:#1E1B18;margin:48px 0 10px;border-bottom:2px solid #F0C040;padding-bottom:10px;">What This Means for Buyers</h2>
+
+<p style="font-size:1.18rem;color:#444444;margin:0 0 18px;line-height:1.6;">If you are buying this spring, you are in a stronger position than buyers a few years ago. You have more homes to choose from, more time to decide, and a lower payment than last spring. Inventory near 3.1 months means no same-day, sight-unseen offers just to compete. You can tour, inspect, and negotiate. That said, well-priced, move-in-ready homes in popular neighborhoods still sell fast, so having financing in place matters.</p>
+
+<div style="background:#ffffff;border:1px solid #D9D0C3;border-left:4px solid #2e7d32;border-radius:8px;padding:18px 22px;margin:24px 0;box-shadow:0 2px 8px rgba(0,0,0,0.05);">
+  <span style="display:block;font-family:'Playfair Display',serif;font-size:0.8rem;text-transform:uppercase;letter-spacing:0.06em;color:#1E1B18;margin-bottom:8px;">Win Strategy: Current Buyer Conditions</span>
+  <p style="margin:0 0 12px;font-size:1.18rem;color:#444444;line-height:1.6;">Conditions favor prepared buyers who plan to stay put for several years. You are well positioned if you:</p>
+  <ul style="list-style:none;padding-left:0;margin:0;">
+    <li style="padding-left:22px;position:relative;margin-bottom:10px;color:#444444;font-size:1.18rem;list-style:none;">
+      <span style="position:absolute;left:0;top:10px;width:7px;height:7px;background:#F0C040;border-radius:50%;display:inline-block;"></span>
+      Have a mortgage pre-approval in hand so you can move quickly on the right home
+    </li>
+    <li style="padding-left:22px;position:relative;margin-bottom:10px;color:#444444;font-size:1.18rem;list-style:none;">
+      <span style="position:absolute;left:0;top:10px;width:7px;height:7px;background:#F0C040;border-radius:50%;display:inline-block;"></span>
+      Plan to own for at least five to seven years, which rides out short-term price wobbles
+    </li>
+    <li style="padding-left:22px;position:relative;margin-bottom:10px;color:#444444;font-size:1.18rem;list-style:none;">
+      <span style="position:absolute;left:0;top:10px;width:7px;height:7px;background:#F0C040;border-radius:50%;display:inline-block;"></span>
+      Are comfortable with the payment at today's rate, and would view any future rate drop as a refinance bonus
+    </li>
+    <li style="padding-left:22px;position:relative;margin-bottom:10px;color:#444444;font-size:1.18rem;list-style:none;">
+      <span style="position:absolute;left:0;top:10px;width:7px;height:7px;background:#F0C040;border-radius:50%;display:inline-block;"></span>
+      Want negotiating room, which the calmer pace and higher inventory now allow
+    </li>
+  </ul>
+</div>
+
+<details class="sh-expand-bar">
+  <summary>
+    <span class="expand-icon">+</span>
+    <span>
+      <span class="expand-label">When this advice doesn't apply</span>
+      <span class="expand-teaser">If you may need to move within a year or two, today's flat-to-soft prices and transaction costs can make a short hold risky.</span>
+    </span>
+  </summary>
+  <div style="padding:16px 0 0;">
+    <div style="background:#ffffff;border:1px solid #D9D0C3;border-left:4px solid #c0622b;border-radius:8px;padding:18px 22px;margin:8px 0 0;box-shadow:0 2px 8px rgba(0,0,0,0.05);">
+      <span style="display:block;font-family:'Playfair Display',serif;font-size:0.8rem;text-transform:uppercase;letter-spacing:0.06em;color:#1E1B18;margin-bottom:8px;">Important: When This Advice Does Not Apply</span>
+      <p style="margin:0;font-size:1.18rem;color:#444444;line-height:1.6;">Buying makes less sense right now if you expect to move within a year or two, since flat-to-softening prices plus the cost of buying and selling can leave you behind on a short hold. The same caution applies if your debt-to-income ratio is already stretched, if your employment feels uncertain, or if you are buying mainly to flip for quick appreciation. In a stabilizing market, the buyers who do best are the ones who buy a home they want to live in for a while, not a short-term bet.</p>
+    </div>
+  </div>
+</details>
+
+<div style="text-align:right;padding:16px 0 0;">
+  <a href="#key-takeaways" style="display:inline-block;font-size:0.85rem;font-weight:600;color:#1E1B18;text-decoration:none;border-bottom:2px solid #F0C040;letter-spacing:0.04em;">&#9650; Back to Key Takeaways</a>
+</div>
+
+<h2 id="sellers" style="font-family:'Playfair Display',serif;font-size:1.6rem;font-weight:700;color:#1E1B18;margin:48px 0 10px;border-bottom:2px solid #F0C040;padding-bottom:10px;">What This Means for Sellers</h2>
+
+<p style="font-size:1.18rem;color:#444444;margin:0 0 18px;line-height:1.6;">Sellers have a real audience right now. With buyer traffic at its highest April level in years and homes selling in 63 days, the demand is there for homes priced right and shown well. The winning strategy is straightforward: price to where the market is, not last year's peak, invest in presentation so your home stands out among fresh spring inventory, and stay flexible on terms. Homes that check those boxes are still moving quickly.</p>
+
+<div style="background:#ffffff;border:1px solid #D9D0C3;border-left:4px solid #2e7d32;border-radius:8px;padding:18px 22px;margin:24px 0;box-shadow:0 2px 8px rgba(0,0,0,0.05);">
+  <span style="display:block;font-family:'Playfair Display',serif;font-size:0.8rem;text-transform:uppercase;letter-spacing:0.06em;color:#1E1B18;margin-bottom:8px;">Win Strategy: Selling Into Spring Demand</span>
+  <p style="margin:0 0 12px;font-size:1.18rem;color:#444444;line-height:1.6;">To capture the strong buyer traffic this spring:</p>
+  <ul style="list-style:none;padding-left:0;margin:0;">
+    <li style="padding-left:22px;position:relative;margin-bottom:10px;color:#444444;font-size:1.18rem;list-style:none;">
+      <span style="position:absolute;left:0;top:10px;width:7px;height:7px;background:#F0C040;border-radius:50%;display:inline-block;"></span>
+      Price to current comparable sales, not to last year's high-water mark
+    </li>
+    <li style="padding-left:22px;position:relative;margin-bottom:10px;color:#444444;font-size:1.18rem;list-style:none;">
+      <span style="position:absolute;left:0;top:10px;width:7px;height:7px;background:#F0C040;border-radius:50%;display:inline-block;"></span>
+      Invest in presentation, since buyers comparing many homes reward the ones that show best
+    </li>
+    <li style="padding-left:22px;position:relative;margin-bottom:10px;color:#444444;font-size:1.18rem;list-style:none;">
+      <span style="position:absolute;left:0;top:10px;width:7px;height:7px;background:#F0C040;border-radius:50%;display:inline-block;"></span>
+      Stay flexible on closing timing and small repair requests to keep good buyers moving forward
+    </li>
+  </ul>
+</div>
+
+<details class="sh-expand-bar">
+  <summary>
+    <span class="expand-icon">+</span>
+    <span>
+      <span class="expand-label">When this advice doesn't apply</span>
+      <span class="expand-teaser">If your home needs significant work or sits in a slower-moving submarket, waiting or prepping first may serve you better than listing immediately.</span>
+    </span>
+  </summary>
+  <div style="padding:16px 0 0;">
+    <div style="background:#ffffff;border:1px solid #D9D0C3;border-left:4px solid #c0622b;border-radius:8px;padding:18px 22px;margin:8px 0 0;box-shadow:0 2px 8px rgba(0,0,0,0.05);">
+      <span style="display:block;font-family:'Playfair Display',serif;font-size:0.8rem;text-transform:uppercase;letter-spacing:0.06em;color:#1E1B18;margin-bottom:8px;">Important: When This Advice Does Not Apply</span>
+      <p style="margin:0;font-size:1.18rem;color:#444444;line-height:1.6;">Listing immediately may not be your best move if your home needs major repairs that would scare off today's more selective buyers, or if you are in one of the slower submarkets where homes are taking longer to sell. If you do not have to sell this spring, it can pay to invest in key updates first or time your listing to your own circumstances. The healthy demand is real, but it rewards homes that are genuinely ready, and a rushed listing in poor condition can sit and grow stale.</p>
+    </div>
+  </div>
+</details>
+
+<div style="text-align:right;padding:16px 0 0;">
+  <a href="#key-takeaways" style="display:inline-block;font-size:0.85rem;font-weight:600;color:#1E1B18;text-decoration:none;border-bottom:2px solid #F0C040;letter-spacing:0.04em;">&#9650; Back to Key Takeaways</a>
+</div>
+
+<figure style="margin:20px 0 18px;">
+  <img src="https://joe-exprlty.github.io/sellingpdxhomes-images/market-reports/may-2026/metro-area.webp" alt="Suburban neighborhood, Beaverton, Oregon" width="1200" height="630" loading="lazy" style="width:100%;border-radius:10px;display:block;object-fit:cover;max-height:280px;">
+  <figcaption style="font-size:0.88rem;color:#767676;font-style:italic;margin:4px 0 0;">A Washington County neighborhood near Beaverton. The western suburbs led the metro in sales growth this April.</figcaption>
+</figure>
+
+<h2 id="submarkets" style="font-family:'Playfair Display',serif;font-size:1.6rem;font-weight:700;color:#1E1B18;margin:48px 0 10px;border-bottom:2px solid #F0C040;padding-bottom:10px;">Sub-Market Spotlight: Where Demand Is Strongest</h2>
+
+<p style="font-size:1.18rem;color:#444444;margin:0 0 18px;line-height:1.6;">The metro is not one market, it is fifteen. This April the western suburbs stood out, with Beaverton and Aloha, Northwest Washington County, and Northeast Portland all posting double-digit gains in closed sales. Prices below are year-to-date medians, which smooth out monthly noise. The table starts with five of the most active areas; expand it to see all fifteen.</p>
+
+<div class="sh-table-wrap">
+  <div class="sh-table-inner">
+    <table>
+      <thead>
+        <tr>
+          <th>Area</th>
+          <th>Median Price (YTD)</th>
+          <th style="color:#F0C040;">YoY Price</th>
+          <th>Closed Sales</th>
+          <th>YoY Sales</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="cell-hl">NE Portland</td>
+          <td>$513,000</td>
+          <td style="color:#2e7d32;font-weight:600;">+4.6%</td>
+          <td>191</td>
+          <td style="color:#2e7d32;font-weight:600;">+22.4%</td>
+        </tr>
+        <tr>
+          <td class="cell-hl">Beaverton / Aloha</td>
+          <td>$550,000</td>
+          <td style="color:#2e7d32;font-weight:600;">+0.9%</td>
+          <td>159</td>
+          <td style="color:#2e7d32;font-weight:600;">+24.2%</td>
+        </tr>
+        <tr>
+          <td class="cell-hl">NW Washington Co.</td>
+          <td>$676,800</td>
+          <td style="color:#c62828;font-weight:600;">-5.4%</td>
+          <td>104</td>
+          <td style="color:#2e7d32;font-weight:600;">+25.3%</td>
+        </tr>
+        <tr>
+          <td class="cell-hl">SE Portland</td>
+          <td>$455,000</td>
+          <td>0.0%</td>
+          <td>253</td>
+          <td style="color:#2e7d32;font-weight:600;">+3.3%</td>
+        </tr>
+        <tr>
+          <td class="cell-hl">Lake Oswego / W Linn</td>
+          <td>$841,000</td>
+          <td style="color:#c62828;font-weight:600;">-5.0%</td>
+          <td>97</td>
+          <td style="color:#2e7d32;font-weight:600;">+3.2%</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+<div class="sh-swipe-cue">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+  Swipe to see more columns
+</div>
+
+<details class="sh-expand-bar">
+  <summary>
+    <span class="expand-icon">+</span>
+    <span>
+      <span class="expand-label">View all 15 Portland Metro sub-markets</span>
+      <span class="expand-teaser">Gresham and Troutdale sales rose more than 14% while Mt. Hood led the metro on price growth at nearly 7%.</span>
+    </span>
+  </summary>
+  <div style="padding:16px 0 0;">
+    <div class="sh-table-wrap">
+      <div class="sh-table-inner">
+        <table>
+          <thead>
+            <tr>
+              <th>Area</th>
+              <th>Median Price (YTD)</th>
+              <th style="color:#F0C040;">YoY Price</th>
+              <th>Closed Sales</th>
+              <th>YoY Sales</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="cell-hl">Gresham / Troutdale</td>
+              <td>$480,800</td>
+              <td style="color:#c62828;font-weight:600;">-1.0%</td>
+              <td>136</td>
+              <td style="color:#2e7d32;font-weight:600;">+14.3%</td>
+            </tr>
+            <tr>
+              <td class="cell-hl">Mt. Hood</td>
+              <td>$510,000</td>
+              <td style="color:#2e7d32;font-weight:600;">+6.8%</td>
+              <td>15</td>
+              <td style="color:#2e7d32;font-weight:600;">+7.1%</td>
+            </tr>
+            <tr>
+              <td class="cell-hl">Oregon City / Canby</td>
+              <td>$590,000</td>
+              <td>0.0%</td>
+              <td>114</td>
+              <td style="color:#2e7d32;font-weight:600;">+9.6%</td>
+            </tr>
+            <tr>
+              <td class="cell-hl">W Portland</td>
+              <td>$650,000</td>
+              <td style="color:#2e7d32;font-weight:600;">+0.3%</td>
+              <td>214</td>
+              <td style="color:#2e7d32;font-weight:600;">+9.7%</td>
+            </tr>
+            <tr>
+              <td class="cell-hl">Tigard / Wilsonville</td>
+              <td>$610,000</td>
+              <td style="color:#c62828;font-weight:600;">-1.6%</td>
+              <td>200</td>
+              <td style="color:#2e7d32;font-weight:600;">+9.3%</td>
+            </tr>
+            <tr>
+              <td class="cell-hl">Milwaukie / Clackamas</td>
+              <td>$550,000</td>
+              <td style="color:#c62828;font-weight:600;">-3.5%</td>
+              <td>172</td>
+              <td style="color:#2e7d32;font-weight:600;">+4.9%</td>
+            </tr>
+            <tr>
+              <td class="cell-hl">Yamhill Co.</td>
+              <td>$470,000</td>
+              <td style="color:#2e7d32;font-weight:600;">+0.5%</td>
+              <td>91</td>
+              <td style="color:#2e7d32;font-weight:600;">+8.3%</td>
+            </tr>
+            <tr>
+              <td class="cell-hl">N Portland</td>
+              <td>$466,200</td>
+              <td style="color:#2e7d32;font-weight:600;">+0.3%</td>
+              <td>83</td>
+              <td style="color:#c62828;font-weight:600;">-6.7%</td>
+            </tr>
+            <tr>
+              <td class="cell-hl">Hillsboro / Forest Grove</td>
+              <td>$501,300</td>
+              <td style="color:#c62828;font-weight:600;">-3.2%</td>
+              <td>144</td>
+              <td style="color:#c62828;font-weight:600;">-7.7%</td>
+            </tr>
+            <tr>
+              <td class="cell-hl">Columbia Co.</td>
+              <td>$443,600</td>
+              <td style="color:#c62828;font-weight:600;">-3.8%</td>
+              <td>40</td>
+              <td style="color:#c62828;font-weight:600;">-39.4%</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <p style="font-size:0.88rem;color:#767676;margin:12px 0 0;line-height:1.5;">Note: Columbia County and Mt. Hood are low-volume areas where a handful of sales can swing the percentages sharply. Read those figures as directional, not precise.</p>
+  </div>
+</details>
+
+<div style="text-align:right;padding:16px 0 0;">
+  <a href="#key-takeaways" style="display:inline-block;font-size:0.85rem;font-weight:600;color:#1E1B18;text-decoration:none;border-bottom:2px solid #F0C040;letter-spacing:0.04em;">&#9650; Back to Key Takeaways</a>
+</div>
+
+<h3 style="font-family:'Playfair Display',serif;font-size:1.25rem;font-weight:600;color:#1E1B18;margin:32px 0 10px;">Inventory in Months: The Three-Year View</h3>
+
+<p style="font-size:1.18rem;color:#444444;margin:0 0 18px;line-height:1.6;">Inventory tells you how balanced the market is. At 3.1 months in April, supply is essentially flat with last year and still well below the six months that typically marks a balanced market. The current-year column is below. Expand to compare against the past two years.</p>
+
+<div class="sh-table-wrap">
+  <div class="sh-table-inner">
+    <table>
+      <thead>
+        <tr>
+          <th>Month</th>
+          <th style="color:#F0C040;">2026</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td class="cell-hl">January</td><td>4.3</td></tr>
+        <tr><td class="cell-hl">February</td><td>3.6</td></tr>
+        <tr><td class="cell-hl">March</td><td>3.0</td></tr>
+        <tr><td class="cell-hl">April</td><td>3.1</td></tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+<div class="sh-swipe-cue">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+  Swipe to see more columns
+</div>
+
+<details class="sh-expand-bar">
+  <summary>
+    <span class="expand-icon">+</span>
+    <span>
+      <span class="expand-label">View the 3-year inventory comparison</span>
+      <span class="expand-teaser">April inventory has held in a tight 2.4 to 3.1 month band for three straight years, keeping the metro firmly in seller-leaning territory.</span>
+    </span>
+  </summary>
+  <div style="padding:16px 0 0;">
+    <div class="sh-table-wrap">
+      <div class="sh-table-inner">
+        <table>
+          <thead>
+            <tr>
+              <th>Month</th>
+              <th>2024</th>
+              <th>2025</th>
+              <th style="color:#F0C040;">2026</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td class="cell-hl">January</td><td>3.2</td><td>3.7</td><td>4.3</td></tr>
+            <tr><td class="cell-hl">February</td><td>2.8</td><td>3.2</td><td>3.6</td></tr>
+            <tr><td class="cell-hl">March</td><td>2.3</td><td>3.0</td><td>3.0</td></tr>
+            <tr><td class="cell-hl">April</td><td>2.4</td><td>3.1</td><td>3.1</td></tr>
+            <tr><td class="cell-hl">May</td><td>2.3</td><td>3.3</td><td style="color:#767676;">n/a</td></tr>
+            <tr><td class="cell-hl">June</td><td>2.6</td><td>3.6</td><td style="color:#767676;">n/a</td></tr>
+            <tr><td class="cell-hl">July</td><td>2.8</td><td>3.7</td><td style="color:#767676;">n/a</td></tr>
+            <tr><td class="cell-hl">August</td><td>3.0</td><td>3.5</td><td style="color:#767676;">n/a</td></tr>
+            <tr><td class="cell-hl">September</td><td>3.5</td><td>3.8</td><td style="color:#767676;">n/a</td></tr>
+            <tr><td class="cell-hl">October</td><td>2.9</td><td>3.1</td><td style="color:#767676;">n/a</td></tr>
+            <tr><td class="cell-hl">November</td><td>3.0</td><td>3.8</td><td style="color:#767676;">n/a</td></tr>
+            <tr><td class="cell-hl">December</td><td>2.7</td><td>2.9</td><td style="color:#767676;">n/a</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</details>
+
+<div style="text-align:right;padding:16px 0 0;">
+  <a href="#key-takeaways" style="display:inline-block;font-size:0.85rem;font-weight:600;color:#1E1B18;text-decoration:none;border-bottom:2px solid #F0C040;letter-spacing:0.04em;">&#9650; Back to Key Takeaways</a>
+</div>
+
+<div style="background:#E0E6DC;border:1px solid #C8CEBF;border-top:3px solid #F0C040;border-radius:10px;padding:28px 32px;margin:36px 0;">
+  <span style="display:block;font-family:'Nunito Sans',sans-serif;font-weight:700;font-size:0.78rem;text-transform:uppercase;letter-spacing:0.1em;color:#1E1B18;margin:0 0 16px;">Joe's Take</span>
+  <p style="font-family:'Playfair Display',serif;font-style:italic;font-weight:400;font-size:1.35rem;line-height:1.5;color:#1E1B18;margin:0 0 14px;">When I see showings jump 21% but closings rise 7%, I do not read hesitation as weakness. I read it as buyers finally getting to shop like buyers again, with time to think, room to negotiate, and a payment that pencils better than it did last year.</p>
+  <p style="font-family:'Nunito Sans',sans-serif;font-size:0.95rem;font-weight:600;color:#444444;margin:0;">Joe Saling</p>
+</div>
+
+<div style="background:#ffffff;border:2px solid #F0C040;border-radius:14px;padding:28px 32px 32px;margin:48px 0 36px;text-align:center;box-shadow:0 2px 8px rgba(0,0,0,0.05);">
+  <h3 style="font-family:'Playfair Display',serif;font-size:1.55rem;font-weight:700;color:#1E1B18;margin:0 0 10px;text-align:center;">Curious What Your Home Is Worth Today?</h3>
+  <p style="color:#444444;font-size:1.18rem;text-align:center;margin:0 auto 24px;max-width:480px;display:block;line-height:1.6;">With buyer traffic strong this spring, it is a good moment to understand your home's current value. Get a no-obligation valuation, or reach out if you are weighing whether to sell this year.</p>
+  <div style="display:flex;gap:14px;justify-content:center;flex-wrap:wrap;">
+    <a href="https://www.sellingpdxhomes.com/evaluation" target="_blank" style="background:#F0C040;color:#1E1B18;font-family:'Nunito Sans',sans-serif;font-weight:700;font-size:1.18rem;padding:13px 26px;border-radius:4px;text-decoration:none;display:inline-block;border:none;letter-spacing:0.05em;">Get a Home Valuation</a>
+    <a href="https://www.sellingpdxhomes.com/sell" target="_blank" style="background:transparent;color:#1E1B18;font-family:'Nunito Sans',sans-serif;font-weight:700;font-size:1.18rem;padding:13px 26px;border-radius:4px;text-decoration:none;border:2px solid #1E1B18;display:inline-block;letter-spacing:0.05em;">Thinking About Selling?</a>
+  </div>
+</div>
+
+<h2 id="looking-ahead" style="font-family:'Playfair Display',serif;font-size:1.6rem;font-weight:700;color:#1E1B18;margin:48px 0 10px;border-bottom:2px solid #F0C040;padding-bottom:10px;">Where We're Going: What to Watch Next</h2>
+
+<p style="font-size:1.18rem;color:#444444;margin:0 0 18px;line-height:1.6;">No one can predict the market with certainty, but a few factors will shape the rest of 2026 for Portland Metro buyers and sellers. Here are the three that matter most right now.</p>
+
+<p style="font-size:1.18rem;color:#444444;margin:0 0 8px;line-height:1.6;"><strong style="color:#1E1B18;">Mortgage rates and Fed policy.</strong> The Federal Reserve held its benchmark rate steady at its April meeting and signaled patience, with markets expecting few or no cuts this year. The 30-year fixed eased to about 6.33% in April, and even modest further declines would keep pulling hesitant buyers off the sidelines, exactly the dynamic driving this spring's showing surge.</p>
+
+<p style="font-size:1.18rem;color:#444444;margin:18px 0 8px;line-height:1.6;"><strong style="color:#1E1B18;">New Oregon housing laws.</strong> The state recently enacted a package of housing measures aimed at expanding supply and helping individual buyers. One gives families and small buyers a 90-day window to purchase a single-family home before large institutional investors can bid, and another makes it easier for cities to set aside land for housing geared to residents 55 and older. Over time, more supply and fewer large-investor purchases could help everyday buyers compete.</p>
+
+<p style="font-size:1.18rem;color:#444444;margin:18px 0 8px;line-height:1.6;"><strong style="color:#1E1B18;">Construction and renovation costs.</strong> Building materials remain elevated, with framing lumber up sharply year over year and tariffs adding to the cost of items like cabinets and appliances. That keeps new-home and major-renovation budgets under pressure, which tends to push more demand toward existing homes and makes well-maintained resale properties more attractive.</p>
+
+<details class="sh-expand-bar">
+  <summary>
+    <span class="expand-icon">+</span>
+    <span>
+      <span class="expand-label">See all factors to watch</span>
+      <span class="expand-teaser">Spring inventory, the local tech employment picture, downtown's recovery, and the national price trend round out the full watch list.</span>
+    </span>
+  </summary>
+  <div style="padding:16px 0 0;">
+    <p style="font-size:1.18rem;color:#444444;margin:0 0 8px;line-height:1.6;"><strong style="color:#1E1B18;">Spring and summer inventory.</strong> New listings jumped 24% from March, and late spring historically brings the most homes to market. More choice for buyers and more competition for sellers is the likely story into June and July.</p>
+    <p style="font-size:1.18rem;color:#444444;margin:18px 0 8px;line-height:1.6;"><strong style="color:#1E1B18;">Local tech employment.</strong> Nike announced job cuts concentrated in technology in late April, and the region's larger tech employers have trimmed staff over the past two years. High-wage employment remains a swing factor for demand at the upper end.</p>
+    <p style="font-size:1.18rem;color:#444444;margin:18px 0 8px;line-height:1.6;"><strong style="color:#1E1B18;">Downtown recovery and the national trend.</strong> Central-city sales and time on market have improved over the past year, a quiet positive for close-in neighborhoods. Nationally, more than half of major metros show year-over-year price declines, yet Portland is holding up better than many, including Seattle, which posted the steepest drop among major metros.</p>
+  </div>
+</details>
+
+<div style="text-align:right;padding:16px 0 0;">
+  <a href="#key-takeaways" style="display:inline-block;font-size:0.85rem;font-weight:600;color:#1E1B18;text-decoration:none;border-bottom:2px solid #F0C040;letter-spacing:0.04em;">&#9650; Back to Key Takeaways</a>
+</div>
+
+<div class="sh-faq" style="margin:40px 0;background:#E0E6EC;border:1px solid #C4CAD4;border-top:4px solid #F0C040;padding:32px 28px;border-radius:10px;">
+  <h2 style="font-family:'Playfair Display',serif;font-size:1.6rem;font-weight:700;color:#1E1B18;margin:0 0 10px;border-bottom:none;padding-bottom:0;">Frequently Asked Questions</h2>
+  <div style="width:60px;height:3px;background:#F0C040;margin:0 0 22px;"></div>
+
+  <details>
+    <summary>Is May 2026 a good time to buy a home in Portland?<span class="faq-toggle">+</span></summary>
+    <div style="padding:0 4px 18px;color:#444444;font-size:1.18rem;line-height:1.6;">For buyers planning to stay several years, conditions are favorable. Inventory near 3.1 months gives you choice and negotiating room, prices are flat year over year, and the typical monthly payment is about $160 lower than last spring thanks to a 6.33% average rate. Being pre-approved helps you act on the right home.</div>
+  </details>
+
+  <details>
+    <summary>How much have Portland home prices changed?<span class="faq-toggle">+</span></summary>
+    <div style="padding:0 4px 18px;color:#444444;font-size:1.18rem;line-height:1.6;">The April median sale price was $550,000, unchanged from April 2025 and up 1.1% from March. Over a full rolling twelve months, the median has moved just -0.2%. In short, prices have essentially held flat for a year, a sign of stabilization rather than a sharp rise or fall.</div>
+  </details>
+
+  <details>
+    <summary>What does 3.1 months of inventory mean for the market?<span class="faq-toggle">+</span></summary>
+    <div style="padding:0 4px 18px;color:#444444;font-size:1.18rem;line-height:1.6;">Inventory in months estimates how long it would take to sell all active listings at the current sales pace. At 3.1 months, Portland Metro sits below the six months that signals a balanced market, so conditions still modestly favor sellers. It is far more relaxed, though, than the sub-two-month frenzy of a few years ago.</div>
+  </details>
+
+  <details>
+    <summary>Which Portland Metro areas are selling fastest right now?<span class="faq-toggle">+</span></summary>
+    <div style="padding:0 4px 18px;color:#444444;font-size:1.18rem;line-height:1.6;">The western suburbs led in April. Northwest Washington County sales rose about 25% year over year, Beaverton and Aloha about 24%, and Northeast Portland about 22%. These areas combined healthy buyer demand with steady prices, making them some of the most active corners of the metro this spring.</div>
+  </details>
+
+  <details>
+    <summary>How are Northeast Portland home prices doing?<span class="faq-toggle">+</span></summary>
+    <div style="padding:0 4px 18px;color:#444444;font-size:1.18rem;line-height:1.6;">Northeast Portland is one of the stronger areas this year. Its year-to-date median sits around $513,000, up about 4.6% from a year ago, and closed sales rose roughly 22%. Both rising prices and rising volume point to solid, broad-based demand in that part of the city.</div>
+  </details>
+
+  <details>
+    <summary>Did lower mortgage rates make buying more affordable?<span class="faq-toggle">+</span></summary>
+    <div style="padding:0 4px 18px;color:#444444;font-size:1.18rem;line-height:1.6;">Yes, modestly. The 30-year fixed averaged about 6.33% in April, down from roughly 6.80% a year earlier. On a median-priced home with 20% down, that lowers the principal and interest payment by close to $160 a month. Prices held flat, so the rate drop is the main reason affordability improved.</div>
+  </details>
+
+  <details>
+    <summary>Will Portland home prices rise or fall through the rest of 2026?<span class="faq-toggle">+</span></summary>
+    <div style="padding:0 4px 18px;color:#444444;font-size:1.18rem;line-height:1.6;">No one can say for certain. The current data points to stability: flat prices, rising sales, and strong buyer traffic. The national backdrop is gently cooling, so dramatic gains are unlikely, but Portland's demand is holding up better than many large metros. Expect steady rather than sharp movement absent a big rate change.</div>
+  </details>
+</div>
+
+<div style="text-align:right;padding:16px 0 0;">
+  <a href="#key-takeaways" style="display:inline-block;font-size:0.85rem;font-weight:600;color:#1E1B18;text-decoration:none;border-bottom:2px solid #F0C040;letter-spacing:0.04em;">&#9650; Back to Key Takeaways</a>
+</div>
+
+<div style="background:#ffffff;border:2px solid #F0C040;border-radius:14px;padding:28px 32px 32px;margin:48px 0 36px;text-align:center;box-shadow:0 2px 8px rgba(0,0,0,0.05);">
+  <h3 style="font-family:'Playfair Display',serif;font-size:1.55rem;font-weight:700;color:#1E1B18;margin:0 0 10px;text-align:center;">Let's Talk About Your Next Move</h3>
+  <p style="color:#444444;font-size:1.18rem;text-align:center;margin:0 auto 24px;max-width:480px;display:block;line-height:1.6;">Whether you are buying, selling, or just trying to make sense of the numbers, I am happy to walk through what this market means for your situation. Education first, no pressure, no surprises.</p>
+  <div style="display:flex;gap:14px;justify-content:center;flex-wrap:wrap;">
+    <a href="https://www.sellingpdxhomes.com/contact" target="_blank" style="background:#F0C040;color:#1E1B18;font-family:'Nunito Sans',sans-serif;font-weight:700;font-size:1.18rem;padding:13px 26px;border-radius:4px;text-decoration:none;display:inline-block;border:none;letter-spacing:0.05em;">Talk to Joe</a>
+    <a href="https://www.sellingpdxhomes.com/evaluation" target="_blank" style="background:transparent;color:#1E1B18;font-family:'Nunito Sans',sans-serif;font-weight:700;font-size:1.18rem;padding:13px 26px;border-radius:4px;text-decoration:none;border:2px solid #1E1B18;display:inline-block;letter-spacing:0.05em;">Get a Home Valuation</a>
+  </div>
+</div>
+
+<h3 style="font-family:'Playfair Display',serif;font-size:1.25rem;font-weight:600;color:#1E1B18;margin:32px 0 10px;text-align:center;">Homes for Sale in Portland</h3>
+<p style="font-size:0.95rem;color:#767676;text-align:center;margin:0 0 16px;">Browse current listings across the Portland Metro area.</p>
+<div style="border-radius:12px;overflow:hidden;border:1px solid #D9D0C3;margin:0 0 36px;min-height:800px;">
+  <iframe src="https://www.sellingpdxhomes.com/api-site/widget/79448" id="chimeWidget" frameborder="0" style="width:100%;height:800px;"></iframe>
+  <script>const chimeWidget = document.getElementById('chimeWidget');window.addEventListener('message', function (e) {try {let data = JSON.parse(e.data);if(data.from === 'chimeSite' && data.event === 'updateBodyRect'){chimeWidget.style.height = data.data.height + 'px'}} catch (error) {console.log(error)}})</script>
+</div>
+
+<div style="border-top:1px solid #D9D0C3;padding-top:20px;margin-top:10px;">
+  <span style="font-family:'Nunito Sans',sans-serif;font-size:0.75rem;text-transform:uppercase;letter-spacing:0.1em;color:#767676;font-weight:700;display:block;margin:0 0 10px;">Data Sources and References (as of May 2026)</span>
+  <p style="font-size:0.88rem;color:#767676;margin:0 0 6px;line-height:1.5;">Portland Metro market statistics from RMLS Market Action Report, April 2026 reporting period, and the Portland Market Intelligence Tracker. Buyer showing activity from RMLS SentriLock lockbox data.</p>
+  <p style="font-size:0.88rem;color:#767676;margin:0 0 6px;line-height:1.5;">Mortgage rates from the <a href="https://www.freddiemac.com/pmms" target="_blank" rel="noopener noreferrer" style="color:#1E1B18;font-size:0.88rem;font-weight:600;text-decoration:none;border-bottom:2px solid #F0C040;">Freddie Mac Primary Mortgage Market Survey</a>. Federal Reserve policy from the <a href="https://www.federalreserve.gov/monetarypolicy/fomcminutes20260429.htm" target="_blank" rel="noopener noreferrer" style="color:#1E1B18;font-size:0.88rem;font-weight:600;text-decoration:none;border-bottom:2px solid #F0C040;">April 2026 FOMC meeting minutes</a>.</p>
+  <p style="font-size:0.88rem;color:#767676;margin:0 0 6px;line-height:1.5;">National price trends from the <a href="https://www.prnewswire.com/news-releases/sp-cotality-case-shiller-index-reports-annual-gain-in-march-2026-302781946.html" target="_blank" rel="noopener noreferrer" style="color:#1E1B18;font-size:0.88rem;font-weight:600;text-decoration:none;border-bottom:2px solid #F0C040;">S&P Cotality Case-Shiller index, March 2026</a> and <a href="https://www.nar.realtor/research-and-statistics/housing-statistics/pending-home-sales" target="_blank" rel="noopener noreferrer" style="color:#1E1B18;font-size:0.88rem;font-weight:600;text-decoration:none;border-bottom:2px solid #F0C040;">NAR Pending Home Sales</a>.</p>
+  <p style="font-size:0.88rem;color:#767676;margin:0 0 6px;line-height:1.5;">Oregon housing legislation reported by the <a href="https://oregoncapitalchronicle.com/2026/04/22/oregon-governor-signs-housing-bills-addressing-affordability-urban-boundary-growth-boundaries/" target="_blank" rel="noopener noreferrer" style="color:#1E1B18;font-size:0.88rem;font-weight:600;text-decoration:none;border-bottom:2px solid #F0C040;">Oregon Capital Chronicle</a>. Regional employment from <a href="https://www.ciodive.com/news/nike-cuts-1400-roles-reshapes-technology-team/818477/" target="_blank" rel="noopener noreferrer" style="color:#1E1B18;font-size:0.88rem;font-weight:600;text-decoration:none;border-bottom:2px solid #F0C040;">CIO Dive</a>. Construction cost context from the <a href="https://www.nahb.org/advocacy/top-priorities/building-materials-trade-policy/how-tariffs-impact-home-building" target="_blank" rel="noopener noreferrer" style="color:#1E1B18;font-size:0.88rem;font-weight:600;text-decoration:none;border-bottom:2px solid #F0C040;">National Association of Home Builders</a>.</p>
+</div>
+<p style="font-size:0.88rem;color:#767676;margin:12px 0 0;">Data verified: May 2026</p>
+
+<div style="display:flex;align-items:flex-start;gap:20px;background:#ECE4D0;border:1px solid #D4CCB8;border-left:4px solid #F0C040;border-radius:0 8px 8px 0;padding:24px 28px;margin:48px 0 36px;box-shadow:0 2px 8px rgba(0,0,0,0.05);">
+  <div>
+    <h4 style="font-family:'Playfair Display',serif;font-size:1.1rem;font-weight:700;color:#1E1B18;margin:0 0 4px;">Joe Saling</h4>
+    <p style="font-size:0.88rem;color:#1E1B18;font-weight:700;margin:0 0 12px;">Real Estate Advisor | Saling Homes at eXp Realty</p>
+    <p style="margin:0 0 12px;font-size:1.18rem;color:#444444;line-height:1.6;">Joe Saling has been helping Portland-area buyers and sellers for 10 years, backed by 20+ years in sales, marketing, and leadership. He specializes in the Portland Metro market with a focus on data-driven decisions and client education. His approach: educate first, advocate always.</p>
+    <p style="margin:0;font-size:1.18rem;color:#444444;">
+      <a href="tel:5039107364" style="color:#1E1B18;font-weight:600;text-decoration:none;border-bottom:2px solid #F0C040;">(503) 910-7364</a> |
+      <a href="mailto:joe@sellingpdxhomes.com" style="color:#1E1B18;font-weight:600;text-decoration:none;border-bottom:2px solid #F0C040;">joe@sellingpdxhomes.com</a> |
+      <a href="https://www.sellingpdxhomes.com" style="color:#1E1B18;font-weight:600;text-decoration:none;border-bottom:2px solid #F0C040;">sellingpdxhomes.com</a> |
+      <a href="https://www.sellingpdxhomes.com/about" style="color:#1E1B18;font-weight:600;text-decoration:none;border-bottom:2px solid #F0C040;">About Joe</a>
+    </p>
+  </div>
+</div>
+
+<p style="font-size:0.88rem;color:#767676;line-height:1.6;margin:24px 0 0;">Saling Homes at eXp Realty is committed to equal housing opportunity. We do not discriminate on the basis of race, color, religion, sex, handicap, familial status, or national origin.</p>
+
+</div>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "headline": "May 2026 Portland Metro Real Estate Market Update: Showings Surge as Buyers Return",
+      "author": {
+        "@type": "Person",
+        "@id": "https://www.sellingpdxhomes.com/#joe-saling",
+        "name": "Joe Saling",
+        "jobTitle": "Real Estate Advisor",
+        "telephone": "(503) 910-7364",
+        "email": "joe@sellingpdxhomes.com"
+      },
+      "datePublished": "2026-05-26",
+      "dateModified": "2026-05-26",
+      "publisher": {
+        "@type": "RealEstateAgent",
+        "name": "Saling Homes at eXp Realty"
+      },
+      "description": "Portland Metro home showings jumped about 21% in April 2026 while the median price held flat near $550,000. See what rising buyer demand means for your next move.",
+      "image": "https://joe-exprlty.github.io/sellingpdxhomes-images/market-reports/may-2026/hero.webp",
+      "mainEntityOfPage": "https://www.sellingpdxhomes.com/blog/portland-metro-real-estate-market-update-may-2026",
+      "keywords": "Portland metro real estate, Portland housing market 2026, May 2026 market update, April 2026 Portland home prices, NE Portland home prices, Beaverton Aloha real estate, Portland mortgage rates 2026, Portland Metro inventory"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.sellingpdxhomes.com"},
+        {"@type": "ListItem", "position": 2, "name": "Blog", "item": "https://www.sellingpdxhomes.com/blog"},
+        {"@type": "ListItem", "position": 3, "name": "May 2026 Portland Metro Real Estate Market Update"}
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Is May 2026 a good time to buy a home in Portland?",
+          "acceptedAnswer": {"@type": "Answer", "text": "For buyers planning to stay several years, conditions are favorable. Inventory near 3.1 months gives you choice and negotiating room, prices are flat year over year, and the typical monthly payment is about $160 lower than last spring thanks to a 6.33% average rate. Being pre-approved helps you act on the right home."}
+        },
+        {
+          "@type": "Question",
+          "name": "How much have Portland home prices changed?",
+          "acceptedAnswer": {"@type": "Answer", "text": "The April median sale price was $550,000, unchanged from April 2025 and up 1.1% from March. Over a full rolling twelve months, the median has moved just -0.2%. In short, prices have essentially held flat for a year, a sign of stabilization rather than a sharp rise or fall."}
+        },
+        {
+          "@type": "Question",
+          "name": "What does 3.1 months of inventory mean for the market?",
+          "acceptedAnswer": {"@type": "Answer", "text": "Inventory in months estimates how long it would take to sell all active listings at the current sales pace. At 3.1 months, Portland Metro sits below the six months that signals a balanced market, so conditions still modestly favor sellers. It is far more relaxed, though, than the sub-two-month frenzy of a few years ago."}
+        },
+        {
+          "@type": "Question",
+          "name": "Which Portland Metro areas are selling fastest right now?",
+          "acceptedAnswer": {"@type": "Answer", "text": "The western suburbs led in April. Northwest Washington County sales rose about 25% year over year, Beaverton and Aloha about 24%, and Northeast Portland about 22%. These areas combined healthy buyer demand with steady prices, making them some of the most active corners of the metro this spring."}
+        },
+        {
+          "@type": "Question",
+          "name": "How are Northeast Portland home prices doing?",
+          "acceptedAnswer": {"@type": "Answer", "text": "Northeast Portland is one of the stronger areas this year. Its year-to-date median sits around $513,000, up about 4.6% from a year ago, and closed sales rose roughly 22%. Both rising prices and rising volume point to solid, broad-based demand in that part of the city."}
+        },
+        {
+          "@type": "Question",
+          "name": "Did lower mortgage rates make buying more affordable?",
+          "acceptedAnswer": {"@type": "Answer", "text": "Yes, modestly. The 30-year fixed averaged about 6.33% in April, down from roughly 6.80% a year earlier. On a median-priced home with 20% down, that lowers the principal and interest payment by close to $160 a month. Prices held flat, so the rate drop is the main reason affordability improved."}
+        },
+        {
+          "@type": "Question",
+          "name": "Will Portland home prices rise or fall through the rest of 2026?",
+          "acceptedAnswer": {"@type": "Answer", "text": "No one can say for certain. The current data points to stability: flat prices, rising sales, and strong buyer traffic. The national backdrop is gently cooling, so dramatic gains are unlikely, but Portland's demand is holding up better than many large metros. Expect steady rather than sharp movement absent a big rate change."}
+        }
+      ]
+    }
+  ]
+}
+</script>
