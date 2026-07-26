@@ -1,0 +1,86 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is the best day trip from Portland?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It depends on the weather more than anything. The Columbia River Gorge gives you the most waterfall for the least drive, the coast at Cannon Beach is the fastest ocean, and Silver Falls is the best rainy-day pick because the falls run harder when it's wet. Check the forecast, then choose."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need a permit to visit Multnomah Falls in 2026?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, if you park at the I-84 Exit 31 lot between 9 a.m. and 6 p.m. from May 22 through September 7, 2026. It costs about two dollars on Recreation.gov and does not guarantee a parking spot. Outside those hours and dates, or if you arrive by bike, foot, or shuttle, no permit is required."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much does it cost to park at Oregon state parks?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "At parks that charge, a day-use permit is $10 for Oregon residents and $12 for out-of-state visitors, and one daily permit works all day at any fee park in the system. It's free if you walk, bike, or take transit in. If you go often, the $60 annual resident pass pays for itself after about six visits."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the closest beach to Portland, Oregon?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Cannon Beach is the fastest, at 85 to 95 minutes on a weekday, though summer weekend traffic on Highway 26 can push that past two hours. Manzanita and the beaches near Oswald West are a few minutes further south and usually quieter."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can you do a day trip from Portland without a car?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, though options are limited. Cascade Locks is reachable on the Columbia Area Transit bus from Gateway Transit Center, and Multnomah Falls can be reached by shuttle from downtown Portland. Most other trips on this list really do need a car."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Mount St. Helens open to visit from Portland?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The west side and the Johnston Ridge Observatory are not reachable and aren't expected to reopen until around spring 2027, because of a road closure on State Route 504. The south side, including Ape Cave, is open in season by timed ticket, and that's the current day-trip option."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is there to do near Portland when it is raining?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Rain is a reason to change trips, not cancel them. Silver Falls and the Gorge waterfalls run harder and look better in wet weather. For a fully indoor day, McMinnville pairs a walkable downtown with the Evergreen Aviation and Space Museum, and Fort Vancouver works year-round."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "ItemList",
+      "name": "12 Day Trips From Portland, Oregon Under 90 Minutes",
+      "itemListOrder": "https://schema.org/ItemListUnordered",
+      "numberOfItems": 12,
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Columbia River Gorge waterfall corridor" },
+        { "@type": "ListItem", "position": 2, "name": "Sauvie Island" },
+        { "@type": "ListItem", "position": 3, "name": "Fort Vancouver and the Vancouver Waterfront" },
+        { "@type": "ListItem", "position": 4, "name": "Oregon City and Willamette Falls" },
+        { "@type": "ListItem", "position": 5, "name": "Dundee Hills and Newberg" },
+        { "@type": "ListItem", "position": 6, "name": "Cascade Locks and Bridge of the Gods" },
+        { "@type": "ListItem", "position": 7, "name": "Beacon Rock State Park" },
+        { "@type": "ListItem", "position": 8, "name": "McMinnville" },
+        { "@type": "ListItem", "position": 9, "name": "Silver Falls State Park" },
+        { "@type": "ListItem", "position": 10, "name": "Hood River and the Fruit Loop" },
+        { "@type": "ListItem", "position": 11, "name": "Timberline Lodge and Trillium Lake" },
+        { "@type": "ListItem", "position": 12, "name": "Cannon Beach and Ecola State Park" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+LOFTY PLACEMENT GUIDE
+Post: 12 Day Trips From Portland, Oregon: All Under 90 Minutes
+Slug: day-trips-from-portland-oregon
+Built: July 2026 | System: SH-Blog-System-v3.6 | Category 6, Local Roundup
+
+=====================================================================
+BEFORE YOU START: upload the 4 images
+=====================================================================
+Upload these to the images repo at:  Blog/day-trips-from-portland-oregon/
+(capital B in Blog, the folder name must match exactly)
+
+  hero-day-trips-portland.webp              1200x480   182 KB
+  ed1-trip-planning-day-trips-portland.webp  800x400    35 KB
+  ed2-dundee-hills-day-trips-portland.webp   800x400    82 KB
+  ed3-cannon-beach-day-trips-portland.webp   800x400    23 KB
+
+The HTML already points at the published GitHub Pages URLs. Confirm all four
+load in a browser before you publish the post, or the images will 404.
+
+=====================================================================
+TAB 1: CONTENT
+=====================================================================
+Title (this becomes the H1, do NOT add an H1 in the HTML):
+  12 Day Trips From Portland, Oregon: All Under 90 Minutes
+
+Blog Post Content:
+  Click the < > source-code button and paste the ENTIRE contents of
+  day-trips-from-portland-oregon.html (Google Fonts link, the <article>,
+  and the <style> block, in that one paste). No schema goes in this field.
+
+=====================================================================
+TAB 2: SETTINGS
+=====================================================================
+Author:          Joe Saling
+URL Slug:        day-trips-from-portland-oregon
+Categories:      Community Page (primary), Buying a Home
+Featured Image:  upload hero-day-trips-portland.webp
+                 DO NOT check "Add featured image to blog detail page"
+                 (the hero is already inside the post HTML)
+
+=====================================================================
+TAB 3: SEO
+=====================================================================
+Clear all auto-variables first, then paste custom values:
+
+Meta Title (56 chars):
+  12 Day Trips From Portland, Oregon: All Under 90 Minutes
+
+Meta Description (154 chars):
+  Twelve day trips from Portland, Oregon, all under 90 minutes. Sorted by drive time and by weather, with current permit rules and the trips worth skipping.
+
+Meta Keywords:
+  day trips from portland oregon, day trips near portland, columbia river gorge day trip, oregon coast day trip from portland, things to do near portland oregon, weekend trips from portland
+
+=====================================================================
+TAB 4: SCHEMA
+=====================================================================
+Paste the raw JSON from day-trips-from-portland-oregon-schema.json.
+No <script> wrapper. Confirm the "Valid JSON" indicator lights up before saving.
+Contains FAQPage + ItemList (unordered, because the list is curated by
+drive-time band, not ranked). Lofty auto-generates BlogPosting and Breadcrumb,
+so those are intentionally NOT included.
+
+ONE-TIME v3.6 AUTHOR ENRICHMENT CHECK (first v3.6 post):
+  After publishing, view page source and find the auto-generated BlogPosting.
+  If its author block is thin (no jobTitle / telephone / email), add a
+  standalone Person node and a RealEstateAgent node to the Schema @graph so
+  Joe's entity data is on the page. Document the finding in the system file.
+
+=====================================================================
+POST-PUBLISH VERIFICATION
+=====================================================================
+1. Source-view roundtrip: confirm Lofty kept <article> and did not rewrite it
+   to <div>. If it did, note the platform limitation.
+2. Click all 4 images to confirm they load from GitHub Pages.
+3. Confirm the comparison table scrolls sideways on a phone with the swipe cue.
+4. Confirm the lead FAQ shows expanded and the rest are collapsed.
+5. Confirm the two CTA buttons read gold-on-dark (primary) and outlined
+   (secondary), with visible primary button text.
+
+=====================================================================
+TWO ITEMS TO RE-CHECK AT NEXT REVIEW (April 2027)
+=====================================================================
+- Willamette Falls public viewing access (entry #4). Kept per Joe's call with
+  "still partial" framing. If a full riverwalk opens, upgrade the entry.
+- Historic Columbia River Highway through-route east of Multnomah Falls. Post
+  routes readers to TripCheck rather than asserting open/closed.
