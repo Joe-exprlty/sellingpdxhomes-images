@@ -1,0 +1,78 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Are there off-leash dog parks in Tigard, Oregon?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, three: Potso Dog Park (2.59 acres, the city's largest), Summerlake Dog Park (inside Summerlake Park), and Ash Avenue Dog Park (a small downtown pocket park near the Fanno Creek Trail). All three are free, fully fenced, and open dawn to dusk."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What's the best dog park in Beaverton?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Depends what you need. Winkelman is largest with agility equipment, but its biggest section closes seasonally. Hazeldale in Aloha offers strong size separation. Schiffler stays open year-round on wood chips, the better winter pick."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is there a dog park in Tualatin?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "One: the Jurgens Off-Leash Dog Area inside Tualatin Community Park, opened in 2020. Fenced, mulched, with a separate small-dog section. Every other Tualatin park requires a leash no longer than six feet at all times."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Which westside dog parks stay open and usable in the winter?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Look for wood-chip, sand, or turf surfacing over open grass. Winkelman's winter paddock, Hondo's sand section, Schiffler's run, and Butternut Creek's turf side handle wet months without the seasonal closures elsewhere."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I bring my dog to Tualatin Hills Nature Park or Cooper Mountain Nature Park?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. THPRD prohibits pets entirely at both, even leashed, to protect wildlife, a common mix-up since both sites are well known and green but aren't dog destinations."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is there a fenced dog park near Hillsboro?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, three: Hondo (the city's largest at 3.75 acres), PCC Rock Creek (publicly accessible on the PCC campus), and Butternut Creek Park (seasonal grass plus year-round turf)."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "ItemList",
+      "name": "Off-Leash Dog Parks and Dog-Friendly Trails on the Portland Westside",
+      "itemListOrder": "https://schema.org/ItemListUnordered",
+      "numberOfItems": 12,
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Potso Dog Park", "url": "https://www.sellingpdxhomes.com/blog/off-leash-dog-parks-portland-westside#tigard-parks" },
+        { "@type": "ListItem", "position": 2, "name": "Summerlake Dog Park", "url": "https://www.sellingpdxhomes.com/blog/off-leash-dog-parks-portland-westside#tigard-parks" },
+        { "@type": "ListItem", "position": 3, "name": "Ash Avenue Dog Park", "url": "https://www.sellingpdxhomes.com/blog/off-leash-dog-parks-portland-westside#tigard-parks" },
+        { "@type": "ListItem", "position": 4, "name": "Winkelman Dog Park", "url": "https://www.sellingpdxhomes.com/blog/off-leash-dog-parks-portland-westside#beaverton-parks" },
+        { "@type": "ListItem", "position": 5, "name": "Hazeldale Dog Park", "url": "https://www.sellingpdxhomes.com/blog/off-leash-dog-parks-portland-westside#beaverton-parks" },
+        { "@type": "ListItem", "position": 6, "name": "Evelyn M. Schiffler Memorial Park Dog Run", "url": "https://www.sellingpdxhomes.com/blog/off-leash-dog-parks-portland-westside#beaverton-parks" },
+        { "@type": "ListItem", "position": 7, "name": "Hondo Dog Park", "url": "https://www.sellingpdxhomes.com/blog/off-leash-dog-parks-portland-westside#hillsboro-parks" },
+        { "@type": "ListItem", "position": 8, "name": "PCC Rock Creek Dog Park", "url": "https://www.sellingpdxhomes.com/blog/off-leash-dog-parks-portland-westside#hillsboro-parks" },
+        { "@type": "ListItem", "position": 9, "name": "Butternut Creek Park", "url": "https://www.sellingpdxhomes.com/blog/off-leash-dog-parks-portland-westside#hillsboro-parks" },
+        { "@type": "ListItem", "position": 10, "name": "Jurgens Off-Leash Dog Area", "url": "https://www.sellingpdxhomes.com/blog/off-leash-dog-parks-portland-westside#tualatin-park" },
+        { "@type": "ListItem", "position": 11, "name": "Fanno Creek Trail", "url": "https://www.sellingpdxhomes.com/blog/off-leash-dog-parks-portland-westside#trails" },
+        { "@type": "ListItem", "position": 12, "name": "Westside Trail", "url": "https://www.sellingpdxhomes.com/blog/off-leash-dog-parks-portland-westside#trails" }
+      ]
+    }
+  ]
+}
