@@ -1,0 +1,118 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "headline": "August 2026 Portland Metro Real Estate Market Update: Sales Up, Showings Down",
+      "author": {
+        "@type": "Person",
+        "@id": "https://www.sellingpdxhomes.com/#joe-saling",
+        "name": "Joe Saling",
+        "jobTitle": "Real Estate Advisor",
+        "telephone": "(503) 910-7364",
+        "email": "joe@sellingpdxhomes.com"
+      },
+      "datePublished": "2026-08-17",
+      "dateModified": "2026-08-17",
+      "publisher": {
+        "@type": "RealEstateAgent",
+        "name": "Saling Homes at eXp Realty"
+      },
+      "description": "Portland Metro closed 2,167 homes in July 2026, up 8.1% year over year, while the median price held at $555,000. See what it means for buyers and sellers.",
+      "image": "https://joe-exprlty.github.io/sellingpdxhomes-images/market-reports/august-2026/hero.webp",
+      "mainEntityOfPage": "https://www.sellingpdxhomes.com/blog/august-2026-portland-metro-real-estate-market-update",
+      "keywords": "Portland metro real estate, Portland housing market 2026, August 2026 market update, Portland home prices July 2026, Beaverton Aloha home prices, Lake Oswego West Linn median price, Hillsboro Forest Grove housing market, Portland mortgage rates August 2026, Is August 2026 a good time to buy a home in Portland, Will Portland home prices drop in 2026, Portland inventory in months, Portland seller strategy 2026"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.sellingpdxhomes.com"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://www.sellingpdxhomes.com/blog"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "August 2026 Portland Metro Real Estate Market Update: Sales Up, Showings Down"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Is August 2026 a good time to buy a home in Portland?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "For buyers planning to stay five years or more, conditions are favorable. Homes take 54 days to sell, 31% of listings have a price reduction, and the monthly payment on a median home runs about $76 less than last year. Short-term buyers face more risk with prices flat."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much have Portland home prices changed in 2026?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The July 2026 median sale price was $555,000, unchanged from July 2025. Year to date the median is $549,900 against $550,000 last year, essentially flat. The average sale price rose 1.7% to $632,500, reflecting more activity at the upper end rather than broad price growth."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What does 3.3 months of inventory mean for Portland buyers?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It means every listed home would sell in 3.3 months at July's pace. Under 3 months favors sellers, over 6 favors buyers, so Portland sits in balanced territory. That is down from 3.7 months last July but up from 2.8 in July 2024."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Which Portland sub-market is strongest right now?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Beaverton and Aloha led the metro in July with pending sales up 22.9% year over year and closings up 10.8%, at 45 days of market time. Tigard and Wilsonville followed with pendings up 11.2% and the metro's second-tightest inventory at 2.7 months."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why are Hillsboro and Forest Grove home sales slowing?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Pending sales there fell 24.0% year over year in July, the steepest decline of the fifteen sub-markets, and the year-to-date median dropped 3.0% to $509,000. July closings still rose 16.8%, which reflects earlier contracts. The pending number is the forward signal to watch."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the monthly payment on a median-priced Portland home?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "On the $555,000 median with 20% down at July's 6.54% average rate, principal and interest run about $2,818 monthly. Property taxes, insurance and maintenance are additional. At the August 13 rate of 6.67%, the same loan costs roughly $2,856 per month."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Will Portland home prices drop in late 2026?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No one can predict prices, but the signals point to flat rather than falling. The median has held steady for twelve months, inventory sits in a balanced 3.0 to 3.3 month range, and showings are down 6.0%. Softening demand with steady supply usually produces stagnation, not decline."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why did closed sales rise while showings fell in July?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Closings reflect contracts written 30 to 60 days earlier, so July's 8.1% gain came from strong May and June activity. Lockbox showings and pending sales measure demand happening now, and both declined. The forward indicators matter more than the closing count."
+          }
+        }
+      ]
+    }
+  ]
+}
